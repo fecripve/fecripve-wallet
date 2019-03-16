@@ -1,6 +1,6 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
-import com.araguaneybits.core.coins.families.VpncoinFamily;
+import com.fecripve.core.coins.families.VpncoinFamily;
 
 /**
  * @author John L. Jegutanis

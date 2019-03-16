@@ -1,9 +1,9 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.util.GenericUtils;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.exceptions.AddressMalformedException;
+import com.fecripve.core.util.GenericUtils;
 import com.google.common.base.Charsets;
 import com.google.common.collect.ImmutableList;
 import com.google.common.primitives.Bytes;

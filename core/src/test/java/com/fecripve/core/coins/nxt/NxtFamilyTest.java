@@ -1,13 +1,13 @@
-package com.araguaneybits.core.coins.nxt;
+package com.fecripve.core.coins.nxt;
 
 /**
  * @author John L. Jegutanis
  */
 
-import com.araguaneybits.core.coins.NxtMain;
-import com.araguaneybits.core.coins.nxt.Appendix.EncryptedMessage;
-import com.araguaneybits.core.wallet.families.nxt.NxtAddress;
-import com.araguaneybits.core.wallet.families.nxt.NxtFamilyKey;
+import com.fecripve.core.coins.NxtMain;
+import com.fecripve.core.coins.nxt.Appendix.EncryptedMessage;
+import com.fecripve.core.wallet.families.nxt.NxtAddress;
+import com.fecripve.core.wallet.families.nxt.NxtFamilyKey;
 
 import org.bitcoinj.crypto.DeterministicHierarchy;
 import org.bitcoinj.crypto.DeterministicKey;

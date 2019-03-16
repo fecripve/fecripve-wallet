@@ -1,6 +1,6 @@
-package com.araguaneybits.core.network;
+package com.fecripve.core.network;
 
-import com.araguaneybits.core.coins.CoinType;
+import com.fecripve.core.coins.CoinType;
 
 /**
  * @author John L. Jegutanis

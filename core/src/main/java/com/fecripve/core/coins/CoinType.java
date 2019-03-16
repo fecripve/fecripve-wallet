@@ -1,10 +1,10 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
 
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.messages.MessageFactory;
-import com.araguaneybits.core.util.MonetaryFormat;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.fecripve.core.exceptions.AddressMalformedException;
+import com.fecripve.core.messages.MessageFactory;
+import com.fecripve.core.util.MonetaryFormat;
+import com.fecripve.core.wallet.AbstractAddress;
 import com.google.common.base.Charsets;
 
 import org.bitcoinj.core.Coin;
@@ -140,7 +140,7 @@ abstract public class CoinType extends NetworkParameters implements ValueType, S
 
     /**
      * Returns a 1 coin of this type with the correct amount of units (satoshis)
-     * Use {@link com.araguaneybits.core.coins.CoinType:oneCoin}
+     * Use {@link com.fecripve.core.coins.CoinType:oneCoin}
      */
     @Deprecated
     public Coin getOneCoin() {

@@ -1,10 +1,10 @@
-package com.araguaneybits.core.exchange.shapeshift;
+package com.fecripve.core.exchange.shapeshift;
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.DogecoinMain;
-import com.araguaneybits.core.coins.NuBitsMain;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftExchangeRate;
+import com.fecripve.core.coins.BitcoinMain;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.DogecoinMain;
+import com.fecripve.core.coins.NuBitsMain;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftExchangeRate;
 
 import org.junit.Test;
 

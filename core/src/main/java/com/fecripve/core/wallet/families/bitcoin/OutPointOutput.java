@@ -1,7 +1,7 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.fecripve.core.wallet.families.bitcoin;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
 
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.TransactionInput;

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.dialogs;
+package com.fecripve.wallet.ui.dialogs;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -10,9 +10,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.DialogBuilder;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.ui.DialogBuilder;
 
 import butterknife.ButterKnife;
 

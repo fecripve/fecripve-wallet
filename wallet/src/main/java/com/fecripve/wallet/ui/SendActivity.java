@@ -1,9 +1,9 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.araguaneybits.wallet.Constants;
+import com.fecripve.wallet.Constants;
 
 /**
  * @author John L. Jegutanis

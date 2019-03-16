@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.util;
+package com.fecripve.wallet.util;
 
 /*
  * Copyright 2014 the original author or authors.
@@ -24,8 +24,8 @@ import android.text.SpannableString;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 
-import com.araguaneybits.core.util.MonetaryFormat;
-import com.araguaneybits.wallet.Constants;
+import com.fecripve.core.util.MonetaryFormat;
+import com.fecripve.wallet.Constants;
 
 import org.bitcoinj.core.Monetary;
 

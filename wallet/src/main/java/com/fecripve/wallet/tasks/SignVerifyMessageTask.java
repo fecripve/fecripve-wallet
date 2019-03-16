@@ -1,9 +1,9 @@
-package com.araguaneybits.wallet.tasks;
+package com.fecripve.wallet.tasks;
 
 import android.os.AsyncTask;
 
-import com.araguaneybits.core.wallet.SignedMessage;
-import com.araguaneybits.core.wallet.WalletAccount;
+import com.fecripve.core.wallet.SignedMessage;
+import com.fecripve.core.wallet.WalletAccount;
 
 import org.acra.ACRA;
 import org.bitcoinj.crypto.KeyCrypterException;

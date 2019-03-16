@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.araguaneybits.wallet.util;
+package com.fecripve.wallet.util;
 
 
 import java.io.File;

@@ -1,12 +1,12 @@
-package com.araguaneybits.wallet;
+package com.fecripve.wallet;
 
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.text.format.DateUtils;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.wallet.util.WalletUtils;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.wallet.util.WalletUtils;
 import com.google.common.collect.ImmutableMap;
 
 import org.json.JSONException;

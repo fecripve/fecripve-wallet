@@ -1,8 +1,8 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.fecripve.core.wallet.families.bitcoin;
 
-import com.araguaneybits.core.network.AddressStatus;
-import com.araguaneybits.core.network.ServerClient.UnspentTx;
-import com.araguaneybits.core.network.interfaces.TransactionEventListener;
+import com.fecripve.core.network.AddressStatus;
+import com.fecripve.core.network.ServerClient.UnspentTx;
+import com.fecripve.core.network.interfaces.TransactionEventListener;
 
 import java.util.List;
 

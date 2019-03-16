@@ -1,4 +1,4 @@
-package com.araguaneybits.core.exchange.shapeshift;
+package com.fecripve.core.exchange.shapeshift;
 
 import com.squareup.okhttp.Cache;
 import com.squareup.okhttp.ConnectionSpec;

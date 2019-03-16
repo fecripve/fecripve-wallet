@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.widget;
+package com.fecripve.wallet.ui.widget;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,13 +8,13 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.WalletUtils;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.util.GenericUtils;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.util.WalletUtils;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

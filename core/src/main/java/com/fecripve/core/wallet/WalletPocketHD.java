@@ -16,13 +16,13 @@
  * limitations under the License.
  */
 
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.exceptions.Bip44KeyLookAheadExceededException;
-import com.araguaneybits.core.protos.Protos;
-import com.araguaneybits.core.util.KeyUtils;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.exceptions.Bip44KeyLookAheadExceededException;
+import com.fecripve.core.protos.Protos;
+import com.fecripve.core.util.KeyUtils;
+import com.fecripve.core.wallet.families.bitcoin.BitAddress;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableList;
 
@@ -46,10 +46,10 @@ import java.util.Set;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkArgument;
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
-import static com.araguaneybits.core.util.BitAddressUtils.getHash160;
+import static com.fecripve.core.Preconditions.checkArgument;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkState;
+import static com.fecripve.core.util.BitAddressUtils.getHash160;
 import static org.bitcoinj.wallet.KeyChain.KeyPurpose.CHANGE;
 import static org.bitcoinj.wallet.KeyChain.KeyPurpose.RECEIVE_FUNDS;
 import static org.bitcoinj.wallet.KeyChain.KeyPurpose.REFUND;

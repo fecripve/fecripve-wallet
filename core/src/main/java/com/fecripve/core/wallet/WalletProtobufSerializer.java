@@ -1,15 +1,15 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.families.BitFamily;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.protos.Protos;
-import com.araguaneybits.core.util.KeyUtils;
-import com.araguaneybits.core.wallet.families.bitcoin.BitTransaction;
-import com.araguaneybits.core.wallet.families.bitcoin.OutPointOutput;
-import com.araguaneybits.core.wallet.families.nxt.NxtFamilyWallet;
-import com.araguaneybits.core.wallet.families.nxt.NxtFamilyWalletProtobufSerializer;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.families.BitFamily;
+import com.fecripve.core.coins.families.NxtFamily;
+import com.fecripve.core.protos.Protos;
+import com.fecripve.core.util.KeyUtils;
+import com.fecripve.core.wallet.families.bitcoin.BitTransaction;
+import com.fecripve.core.wallet.families.bitcoin.OutPointOutput;
+import com.fecripve.core.wallet.families.nxt.NxtFamilyWallet;
+import com.fecripve.core.wallet.families.nxt.NxtFamilyWalletProtobufSerializer;
 import com.google.common.base.Splitter;
 import com.google.protobuf.ByteString;
 import com.google.protobuf.TextFormat;

@@ -1,9 +1,9 @@
-package com.araguaneybits.core.util;
+package com.fecripve.core.util;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.ValueType;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.WalletAccount;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.ValueType;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.WalletAccount;
 
 /**
  * @author John L. Jegutanis

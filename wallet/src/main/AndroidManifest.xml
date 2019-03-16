@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.araguaneybits.wallet"
+    package="com.fecripve.wallet"
     android:installLocation="internalOnly" >
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -47,14 +47,14 @@
         android:xlargeScreens="true" />
 
     <application
-        android:name="com.araguaneybits.wallet.WalletApplication"
+        android:name="com.fecripve.wallet.WalletApplication"
         android:allowBackup="false"
         android:hardwareAccelerated="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.araguaneybits.wallet.ui.WalletActivity"
+            android:name="com.fecripve.wallet.ui.WalletActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustResize" >
@@ -65,7 +65,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.SendActivity"
+            android:name="com.fecripve.wallet.ui.SendActivity"
             android:label="@string/send_coins_activity_title"
             android:theme="@style/AppTheme" >
             <intent-filter android:label="@string/app_name" >
@@ -112,145 +112,145 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.IntroActivity"
+            android:name="com.fecripve.wallet.ui.IntroActivity"
             android:theme="@style/AppThemeNoTitleBar"
             android:windowSoftInputMode="adjustResize" >
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.PasswordConfirmationActivity"
+            android:name="com.fecripve.wallet.ui.PasswordConfirmationActivity"
             android:theme="@style/AppThemeNoTitleBar"
             android:windowSoftInputMode="adjustResize" >
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.SignTransactionActivity"
+            android:name="com.fecripve.wallet.ui.SignTransactionActivity"
             android:theme="@style/AppThemeNoTitleBar"
             android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.ScanActivity"
+            android:name="com.fecripve.wallet.ui.ScanActivity"
             android:configChanges="orientation|keyboard|keyboardHidden"
             android:screenOrientation="landscape"
             android:stateNotNeeded="true"
             android:theme="@style/AppThemeNoTitleBar"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.araguaneybits.wallet.ui.AboutActivity"
+            android:name="com.fecripve.wallet.ui.AboutActivity"
             android:label="@string/title_activity_about"
             android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.araguaneybits.wallet.ui.WalletActivity" />
+                android:value="com.fecripve.wallet.ui.WalletActivity" />
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.AddCoinsActivity"
+            android:name="com.fecripve.wallet.ui.AddCoinsActivity"
             android:label="@string/title_activity_add_coins"
             android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.araguaneybits.wallet.ui.WalletActivity" />
+                android:value="com.fecripve.wallet.ui.WalletActivity" />
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.TransactionDetailsActivity"
+            android:name="com.fecripve.wallet.ui.TransactionDetailsActivity"
             android:label="@string/title_activity_transaction_details"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.ExchangeRatesActivity"
+            android:name="com.fecripve.wallet.ui.ExchangeRatesActivity"
             android:label="@string/title_activity_exchange_rates"
             android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.araguaneybits.wallet.ui.WalletActivity" />
+                android:value="com.fecripve.wallet.ui.WalletActivity" />
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.PreviousAddressesActivity"
+            android:name="com.fecripve.wallet.ui.PreviousAddressesActivity"
             android:label="@string/title_activity_previous_addresses"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.SettingsActivity"
+            android:name="com.fecripve.wallet.ui.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.araguaneybits.wallet.ui.WalletActivity" />
+                android:value="com.fecripve.wallet.ui.WalletActivity" />
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.ShowSeedActivity"
+            android:name="com.fecripve.wallet.ui.ShowSeedActivity"
             android:label="@string/title_activity_show_seed"
             android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.araguaneybits.wallet.ui.SettingsActivity" />
+                android:value="com.fecripve.wallet.ui.SettingsActivity" />
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.TradeActivity"
+            android:name="com.fecripve.wallet.ui.TradeActivity"
             android:label="@string/title_activity_trade"
             android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.araguaneybits.wallet.ui.WalletActivity" />
+                android:value="com.fecripve.wallet.ui.WalletActivity" />
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.ExchangeHistoryActivity"
+            android:name="com.fecripve.wallet.ui.ExchangeHistoryActivity"
             android:label="@string/title_activity_exchange_history"
             android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.araguaneybits.wallet.ui.TradeActivity" />
+                android:value="com.fecripve.wallet.ui.TradeActivity" />
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.TradeStatusActivity"
+            android:name="com.fecripve.wallet.ui.TradeStatusActivity"
             android:label="@string/title_activity_exchange_status"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.SignVerifyMessageActivity"
+            android:name="com.fecripve.wallet.ui.SignVerifyMessageActivity"
             android:label="@string/title_activity_sign_verify_message"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.AccountDetailsActivity"
+            android:name="com.fecripve.wallet.ui.AccountDetailsActivity"
             android:label="@string/title_activity_account_details"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.SweepWalletActivity"
+            android:name="com.fecripve.wallet.ui.SweepWalletActivity"
             android:label="@string/title_activity_sweep_wallet"
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.FeesSettingsActivity"
+            android:name="com.fecripve.wallet.ui.FeesSettingsActivity"
             android:label="@string/title_activity_transaction_fees"
             android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.araguaneybits.wallet.ui.SettingsActivity" />
+                android:value="com.fecripve.wallet.ui.SettingsActivity" />
         </activity>
         <activity
-            android:name="com.araguaneybits.wallet.ui.DebuggingActivity"
+            android:name="com.fecripve.wallet.ui.DebuggingActivity"
             android:label="@string/title_activity_debugging"
             android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.araguaneybits.wallet.ui.SettingsActivity" />
+                android:value="com.fecripve.wallet.ui.SettingsActivity" />
         </activity>
 
         <provider
-            android:name="com.araguaneybits.wallet.ExchangeRatesProvider"
-            android:authorities="com.araguaneybits.wallet.exchange_rates"
+            android:name="com.fecripve.wallet.ExchangeRatesProvider"
+            android:authorities="com.fecripve.wallet.exchange_rates"
             android:exported="false" />
         <provider
-            android:name="com.araguaneybits.wallet.AddressBookProvider"
-            android:authorities="com.araguaneybits.wallet.address_book"
+            android:name="com.fecripve.wallet.AddressBookProvider"
+            android:authorities="com.fecripve.wallet.address_book"
             android:exported="false" />
         <provider
-            android:name="com.araguaneybits.wallet.ExchangeHistoryProvider"
-            android:authorities="com.araguaneybits.wallet.exchange_history"
+            android:name="com.fecripve.wallet.ExchangeHistoryProvider"
+            android:authorities="com.fecripve.wallet.exchange_history"
             android:exported="false" />
 
         <service
-            android:name="com.araguaneybits.wallet.service.CoinServiceImpl"
+            android:name="com.fecripve.wallet.service.CoinServiceImpl"
             android:exported="false" />
     </application>
 

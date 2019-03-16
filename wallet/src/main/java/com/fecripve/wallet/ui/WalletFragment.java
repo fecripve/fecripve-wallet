@@ -1,8 +1,8 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.support.v4.app.Fragment;
 
-import com.araguaneybits.core.wallet.WalletAccount;
+import com.fecripve.core.wallet.WalletAccount;
 
 /**
  * @author John L. Jegutanis

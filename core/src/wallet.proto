@@ -23,9 +23,9 @@
  * - To regenerate after editing, run: mvn generate-sources -DupdateProtobuf
  */
 
-package com.araguaneybits.core.protos;
+package com.fecripve.core.protos;
 
-option java_package = "com.araguaneybits.core.protos";
+option java_package = "com.fecripve.core.protos";
 
 option java_outer_classname = "Protos";
 

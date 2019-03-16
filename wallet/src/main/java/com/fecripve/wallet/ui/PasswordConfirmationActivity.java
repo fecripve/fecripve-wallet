@@ -1,10 +1,10 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.araguaneybits.wallet.R;
+import com.fecripve.wallet.R;
 
 /**
  * @author John L. Jegutanis

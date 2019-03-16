@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 /*
  * Copyright 2014 the original author or authors.
@@ -26,7 +26,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.araguaneybits.wallet.R;
+import com.fecripve.wallet.R;
 
 import javax.annotation.Nullable;
 

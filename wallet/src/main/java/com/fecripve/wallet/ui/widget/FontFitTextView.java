@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.widget;
+package com.fecripve.wallet.ui.widget;
 
 import android.content.Context;
 import android.graphics.Paint;

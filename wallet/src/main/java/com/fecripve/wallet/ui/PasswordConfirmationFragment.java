@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,17 +9,17 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.Fonts;
-import com.araguaneybits.wallet.util.Keyboard;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.util.Fonts;
+import com.fecripve.wallet.util.Keyboard;
 
 import javax.annotation.Nullable;
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link com.araguaneybits.wallet.ui.PasswordConfirmationFragment.Listener} interface
+ * {@link com.fecripve.wallet.ui.PasswordConfirmationFragment.Listener} interface
  * to handle interaction events.
  * Use the {@link PasswordConfirmationFragment#newInstance} factory method to
  * create an instance of this fragment.

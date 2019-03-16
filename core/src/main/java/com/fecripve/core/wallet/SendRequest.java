@@ -14,13 +14,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.wallet.families.bitcoin.CoinSelector;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.messages.TxMessage;
+import com.fecripve.core.wallet.families.bitcoin.CoinSelector;
 import com.google.common.base.Objects;
 import com.google.common.base.Objects.ToStringHelper;
 

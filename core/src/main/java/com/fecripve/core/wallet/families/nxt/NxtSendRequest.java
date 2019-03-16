@@ -1,19 +1,19 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.fecripve.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.BurstMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.FeePolicy;
-import com.araguaneybits.core.coins.NxtMain;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.coins.nxt.Appendix;
-import com.araguaneybits.core.coins.nxt.Attachment;
-import com.araguaneybits.core.coins.nxt.Convert;
-import com.araguaneybits.core.coins.nxt.TransactionImpl;
-import com.araguaneybits.core.util.TypeUtils;
-import com.araguaneybits.core.wallet.SendRequest;
+import com.fecripve.core.coins.BurstMain;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.FeePolicy;
+import com.fecripve.core.coins.NxtMain;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.families.NxtFamily;
+import com.fecripve.core.coins.nxt.Appendix;
+import com.fecripve.core.coins.nxt.Attachment;
+import com.fecripve.core.coins.nxt.Convert;
+import com.fecripve.core.coins.nxt.TransactionImpl;
+import com.fecripve.core.util.TypeUtils;
+import com.fecripve.core.wallet.SendRequest;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.fecripve.core.Preconditions.checkState;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**

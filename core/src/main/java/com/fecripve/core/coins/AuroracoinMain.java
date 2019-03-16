@@ -1,6 +1,6 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
-import com.araguaneybits.core.coins.families.BitFamily;
+import com.fecripve.core.coins.families.BitFamily;
 
 /**
  * @author Myckel Habets / Auroracoin dev team

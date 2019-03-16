@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 /*
  * Copyright 2013-2014 the original author or authors.
@@ -19,10 +19,10 @@ package com.araguaneybits.wallet.ui;
 
 import android.view.View;
 
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.util.ExchangeRate;
-import com.araguaneybits.wallet.ui.widget.AmountEditView;
-import com.araguaneybits.wallet.ui.widget.AmountEditView.Listener;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.util.ExchangeRate;
+import com.fecripve.wallet.ui.widget.AmountEditView;
+import com.fecripve.wallet.ui.widget.AmountEditView.Listener;
 
 import org.bitcoinj.core.Coin;
 

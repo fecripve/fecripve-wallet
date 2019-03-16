@@ -1,7 +1,7 @@
-package com.araguaneybits.core.network;
+package com.fecripve.core.network;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.stratumj.ServerAddress;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.stratumj.ServerAddress;
 import com.google.common.collect.ImmutableList;
 
 import java.util.List;

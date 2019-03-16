@@ -1,7 +1,7 @@
-package com.araguaneybits.core.exchange.shapeshift.data;
+package com.fecripve.core.exchange.shapeshift.data;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
 import com.google.common.collect.ImmutableList;
 
 import org.json.JSONObject;

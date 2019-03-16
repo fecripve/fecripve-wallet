@@ -1,13 +1,13 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.CoreUtils;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.BitFamily;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.exceptions.UnsupportedCoinTypeException;
-import com.araguaneybits.core.protos.Protos;
-import com.araguaneybits.core.wallet.families.nxt.NxtFamilyWallet;
+import com.fecripve.core.CoreUtils;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.families.BitFamily;
+import com.fecripve.core.coins.families.NxtFamily;
+import com.fecripve.core.exceptions.UnsupportedCoinTypeException;
+import com.fecripve.core.protos.Protos;
+import com.fecripve.core.wallet.families.nxt.NxtFamilyWallet;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.base.Splitter;
 import com.google.common.collect.ImmutableList;
@@ -44,7 +44,7 @@ import java.util.concurrent.locks.ReentrantLock;
 import javax.annotation.Nullable;
 import javax.annotation.concurrent.GuardedBy;
 
-import static com.araguaneybits.core.CoreUtils.bytesToMnemonic;
+import static com.fecripve.core.CoreUtils.bytesToMnemonic;
 import static com.google.common.base.Preconditions.checkNotNull;
 import static com.google.common.base.Preconditions.checkState;
 
@@ -572,7 +572,7 @@ final public class Wallet {
     /**
      * <p>
      * Disables auto-saving, after it had been enabled with
-     * {@link Wallet#autosaveToFile(java.io.File, long, java.util.concurrent.TimeUnit, com.araguaneybits.core.wallet.WalletFiles.Listener)}
+     * {@link Wallet#autosaveToFile(java.io.File, long, java.util.concurrent.TimeUnit, com.fecripve.core.wallet.WalletFiles.Listener)}
      * before. This method blocks until finished.
      * </p>
      */

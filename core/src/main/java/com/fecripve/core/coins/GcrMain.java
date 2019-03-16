@@ -1,6 +1,6 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
-import com.araguaneybits.core.coins.families.PeerFamily;
+import com.fecripve.core.coins.families.PeerFamily;
 
 public class GcrMain extends PeerFamily {
     private GcrMain() {

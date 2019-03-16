@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,7 +6,7 @@ import android.support.v7.app.ActionBar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.araguaneybits.wallet.R;
+import com.fecripve.wallet.R;
 
 /**
  * Activity that displays a list of previously used addresses.

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.content.Context;
 import android.os.Build;
@@ -8,14 +8,14 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.widget.NavDrawerItemView;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.ui.widget.NavDrawerItemView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.araguaneybits.wallet.ui.NavDrawerItemType.ITEM_SECTION_TITLE;
-import static com.araguaneybits.wallet.ui.NavDrawerItemType.ITEM_SEPARATOR;
+import static com.fecripve.wallet.ui.NavDrawerItemType.ITEM_SECTION_TITLE;
+import static com.fecripve.wallet.ui.NavDrawerItemType.ITEM_SEPARATOR;
 
 /**
  * @author John L. Jegutanis

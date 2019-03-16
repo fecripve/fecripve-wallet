@@ -1,4 +1,4 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
 /**
  * @author John L. Jegutanis

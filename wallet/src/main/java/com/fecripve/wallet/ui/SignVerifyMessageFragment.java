@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,15 +12,15 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.SignedMessage;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.tasks.SignVerifyMessageTask;
-import com.araguaneybits.wallet.util.Keyboard;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.SignedMessage;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.tasks.SignVerifyMessageTask;
+import com.fecripve.wallet.util.Keyboard;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,8 +28,8 @@ import org.slf4j.LoggerFactory;
 import javax.annotation.Nullable;
 
 import static android.view.View.OnClickListener;
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkState;
 
 /**
  * Fragment that prepares a transaction

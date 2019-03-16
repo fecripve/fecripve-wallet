@@ -1,7 +1,7 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
-import com.araguaneybits.core.util.Currencies;
-import com.araguaneybits.core.util.MonetaryFormat;
+import com.fecripve.core.util.Currencies;
+import com.fecripve.core.util.MonetaryFormat;
 
 import org.bitcoinj.core.Coin;
 

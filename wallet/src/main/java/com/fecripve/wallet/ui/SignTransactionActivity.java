@@ -1,13 +1,13 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeHistoryProvider.ExchangeEntry;
-import com.araguaneybits.wallet.R;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.ExchangeHistoryProvider.ExchangeEntry;
+import com.fecripve.wallet.R;
 
 import javax.annotation.Nullable;
 

@@ -1,11 +1,11 @@
-package com.araguaneybits.core.network;
+package com.fecripve.core.network;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.families.BitFamily;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.exceptions.UnsupportedCoinTypeException;
-import com.araguaneybits.core.network.interfaces.BlockchainConnection;
-import com.araguaneybits.core.wallet.WalletAccount;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.families.BitFamily;
+import com.fecripve.core.coins.families.NxtFamily;
+import com.fecripve.core.exceptions.UnsupportedCoinTypeException;
+import com.fecripve.core.network.interfaces.BlockchainConnection;
+import com.fecripve.core.wallet.WalletAccount;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

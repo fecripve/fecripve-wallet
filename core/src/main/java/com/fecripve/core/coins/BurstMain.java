@@ -1,6 +1,6 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
-import com.araguaneybits.core.coins.families.NxtFamily;
+import com.fecripve.core.coins.families.NxtFamily;
 
 /**
  * @author John L. Jegutanis

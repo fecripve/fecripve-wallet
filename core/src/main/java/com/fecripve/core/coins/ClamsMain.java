@@ -1,6 +1,6 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
-import com.araguaneybits.core.coins.families.ClamsFamily;
+import com.fecripve.core.coins.families.ClamsFamily;
 
 /**
  * @author John L. Jegutanis

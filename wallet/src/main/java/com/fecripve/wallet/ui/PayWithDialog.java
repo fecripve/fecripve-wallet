@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -11,15 +11,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.uri.CoinURI;
-import com.araguaneybits.core.uri.CoinURIParseException;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.widget.CoinListItem;
-import com.araguaneybits.wallet.util.UiUtils;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.uri.CoinURI;
+import com.fecripve.core.uri.CoinURIParseException;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.ui.widget.CoinListItem;
+import com.fecripve.wallet.util.UiUtils;
 
 /**
  * @author John L. Jegutanis

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -28,19 +28,19 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.Families;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.widget.CurrencyTextView;
-import com.araguaneybits.wallet.util.Fonts;
-import com.araguaneybits.wallet.util.TimeUtils;
-import com.araguaneybits.wallet.util.WalletUtils;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.families.Families;
+import com.fecripve.core.util.GenericUtils;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.AbstractTransaction;
+import com.fecripve.core.wallet.AbstractWallet;
+import com.fecripve.wallet.AddressBookProvider;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.ui.widget.CurrencyTextView;
+import com.fecripve.wallet.util.Fonts;
+import com.fecripve.wallet.util.TimeUtils;
+import com.fecripve.wallet.util.WalletUtils;
 
 import org.bitcoinj.core.TransactionConfidence;
 import org.bitcoinj.core.TransactionConfidence.ConfidenceType;

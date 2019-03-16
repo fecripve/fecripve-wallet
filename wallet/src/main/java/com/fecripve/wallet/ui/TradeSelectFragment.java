@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -21,26 +21,26 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exchange.shapeshift.ShapeShift;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftCoins;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
-import com.araguaneybits.core.util.ExchangeRate;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.tasks.AddCoinTask;
-import com.araguaneybits.wallet.tasks.ExchangeCheckSupportedCoinsTask;
-import com.araguaneybits.wallet.tasks.MarketInfoPollTask;
-import com.araguaneybits.wallet.ui.adaptors.AvailableAccountsAdaptor;
-import com.araguaneybits.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
-import com.araguaneybits.wallet.ui.widget.AmountEditView;
-import com.araguaneybits.wallet.util.Keyboard;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.exchange.shapeshift.ShapeShift;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftCoins;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
+import com.fecripve.core.util.ExchangeRate;
+import com.fecripve.core.wallet.Wallet;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.tasks.AddCoinTask;
+import com.fecripve.wallet.tasks.ExchangeCheckSupportedCoinsTask;
+import com.fecripve.wallet.tasks.MarketInfoPollTask;
+import com.fecripve.wallet.ui.adaptors.AvailableAccountsAdaptor;
+import com.fecripve.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
+import com.fecripve.wallet.ui.widget.AmountEditView;
+import com.fecripve.wallet.util.Keyboard;
+import com.fecripve.wallet.util.ThrottlingWalletChangeListener;
+import com.fecripve.wallet.util.WeakHandler;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 
@@ -56,7 +56,7 @@ import java.util.Timer;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.coins.Value.canCompare;
+import static com.fecripve.core.coins.Value.canCompare;
 
 /**
  * @author John L. Jegutanis

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.util;
+package com.fecripve.wallet.util;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -24,16 +24,16 @@ import android.text.Spannable;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.util.Currencies;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractTransaction.AbstractOutput;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.families.NxtFamily;
+import com.fecripve.core.util.Currencies;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.AbstractTransaction;
+import com.fecripve.core.wallet.AbstractTransaction.AbstractOutput;
+import com.fecripve.core.wallet.AbstractWallet;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.Constants;
 
 import org.bitcoinj.core.Sha256Hash;
 
@@ -48,7 +48,7 @@ import javax.annotation.CheckForNull;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.fecripve.core.Preconditions.checkState;
 
 /**
  * @author Andreas Schildbach

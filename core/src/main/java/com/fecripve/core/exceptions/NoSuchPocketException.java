@@ -1,4 +1,4 @@
-package com.araguaneybits.core.exceptions;
+package com.fecripve.core.exceptions;
 
 /**
  * @author John L. Jegutanis

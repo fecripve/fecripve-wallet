@@ -15,20 +15,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.network.AddressStatus;
-import com.araguaneybits.core.protos.Protos;
-import com.araguaneybits.core.wallet.families.bitcoin.BitTransaction;
-import com.araguaneybits.core.wallet.families.bitcoin.BitWalletTransaction;
-import com.araguaneybits.core.wallet.families.bitcoin.EmptyTransactionOutput;
-import com.araguaneybits.core.wallet.families.bitcoin.TrimmedTransaction;
-import com.araguaneybits.core.wallet.families.bitcoin.TrimmedOutput;
-import com.araguaneybits.core.wallet.families.bitcoin.OutPointOutput;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.exceptions.AddressMalformedException;
+import com.fecripve.core.network.AddressStatus;
+import com.fecripve.core.protos.Protos;
+import com.fecripve.core.wallet.families.bitcoin.BitTransaction;
+import com.fecripve.core.wallet.families.bitcoin.BitWalletTransaction;
+import com.fecripve.core.wallet.families.bitcoin.EmptyTransactionOutput;
+import com.fecripve.core.wallet.families.bitcoin.TrimmedTransaction;
+import com.fecripve.core.wallet.families.bitcoin.TrimmedOutput;
+import com.fecripve.core.wallet.families.bitcoin.OutPointOutput;
 import com.google.protobuf.ByteString;
 
 import org.bitcoinj.core.Coin;
@@ -56,8 +56,8 @@ import java.util.Map;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkState;
 import static org.bitcoinj.params.Networks.Family.CLAMS;
 import static org.bitcoinj.params.Networks.Family.NUBITS;
 import static org.bitcoinj.params.Networks.Family.PEERCOIN;

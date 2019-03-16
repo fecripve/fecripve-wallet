@@ -1,7 +1,7 @@
-package com.araguaneybits.core.util;
+package com.fecripve.core.util;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.protos.Protos;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.protos.Protos;
 import com.google.common.collect.ImmutableList;
 import com.google.protobuf.ByteString;
 

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -10,12 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.adaptors.FeesListAdapter;
-import com.araguaneybits.wallet.ui.dialogs.EditFeeDialog;
+import com.fecripve.core.coins.Value;
+import com.fecripve.wallet.Configuration;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.ui.adaptors.FeesListAdapter;
+import com.fecripve.wallet.ui.dialogs.EditFeeDialog;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

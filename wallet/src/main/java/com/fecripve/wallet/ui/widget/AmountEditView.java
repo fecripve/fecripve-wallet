@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.widget;
+package com.fecripve.wallet.ui.widget;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -13,12 +13,12 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.ValueType;
-import com.araguaneybits.core.util.MonetaryFormat;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.MonetarySpannable;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.ValueType;
+import com.fecripve.core.util.MonetaryFormat;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.util.MonetarySpannable;
 
 import org.bitcoinj.core.Coin;
 

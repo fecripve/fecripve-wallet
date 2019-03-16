@@ -1,15 +1,15 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeHistoryProvider.ExchangeEntry;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.ExchangeHistoryProvider.ExchangeEntry;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.ui.dialogs.ConfirmAddCoinUnlockWalletDialog;
 
 import org.bitcoinj.crypto.KeyCrypterException;
 

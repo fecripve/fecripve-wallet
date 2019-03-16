@@ -1,10 +1,10 @@
-package com.araguaneybits.wallet.tasks;
+package com.fecripve.wallet.tasks;
 
 import android.os.AsyncTask;
 
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftCoins;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftException;
-import com.araguaneybits.wallet.WalletApplication;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftCoins;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftException;
+import com.fecripve.wallet.WalletApplication;
 
 /**
  * @author John L. Jegutanis

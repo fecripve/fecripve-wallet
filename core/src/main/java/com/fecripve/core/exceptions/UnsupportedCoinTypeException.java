@@ -1,6 +1,6 @@
-package com.araguaneybits.core.exceptions;
+package com.fecripve.core.exceptions;
 
-import com.araguaneybits.core.coins.CoinType;
+import com.fecripve.core.coins.CoinType;
 
 /**
  * @author John L. Jegutanis

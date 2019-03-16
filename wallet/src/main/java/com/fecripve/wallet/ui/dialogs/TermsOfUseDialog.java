@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.dialogs;
+package com.fecripve.wallet.ui.dialogs;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -6,10 +6,10 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.DialogBuilder;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.ui.DialogBuilder;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.fecripve.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

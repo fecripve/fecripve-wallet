@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 
 import android.content.Context;
@@ -16,14 +16,14 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.widget.HeaderWithFontIcon;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.wallet.Configuration;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.ExchangeRatesProvider;
+import com.fecripve.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.ui.widget.HeaderWithFontIcon;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
 
@@ -32,7 +32,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 
-import static com.araguaneybits.wallet.ExchangeRatesProvider.getRates;
+import static com.fecripve.wallet.ExchangeRatesProvider.getRates;
 
 /**
  * Fragment that restores a wallet

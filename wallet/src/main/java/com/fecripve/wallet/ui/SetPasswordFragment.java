@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -17,11 +17,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.Fonts;
-import com.araguaneybits.wallet.util.Keyboard;
-import com.araguaneybits.wallet.util.PasswordQualityChecker;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.util.Fonts;
+import com.fecripve.wallet.util.Keyboard;
+import com.fecripve.wallet.util.PasswordQualityChecker;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

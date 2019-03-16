@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.util;
+package com.fecripve.wallet.util;
 
 import android.os.Handler;
 import android.os.Message;

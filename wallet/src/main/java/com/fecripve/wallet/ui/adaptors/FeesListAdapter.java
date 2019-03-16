@@ -1,14 +1,14 @@
-package com.araguaneybits.wallet.ui.adaptors;
+package com.fecripve.wallet.ui.adaptors;
 
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.ui.widget.CoinListItem;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.wallet.Configuration;
+import com.fecripve.wallet.ui.widget.CoinListItem;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.araguaneybits.core.coins.nxt;
+package com.fecripve.core.coins.nxt;
 
 /******************************************************************************
  * Copyright © 2013-2015 The Nxt Core Developers.                             *

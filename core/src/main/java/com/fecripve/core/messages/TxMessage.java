@@ -1,6 +1,6 @@
-package com.araguaneybits.core.messages;
+package com.fecripve.core.messages;
 
-import com.araguaneybits.core.wallet.AbstractTransaction;
+import com.fecripve.core.wallet.AbstractTransaction;
 
 import java.io.Serializable;
 

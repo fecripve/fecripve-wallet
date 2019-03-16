@@ -1,4 +1,4 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
 import org.bitcoinj.utils.Fiat;
 

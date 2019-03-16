@@ -1,8 +1,8 @@
-package com.araguaneybits.core.network.interfaces;
+package com.fecripve.core.network.interfaces;
 
-import com.araguaneybits.core.network.AddressStatus;
-import com.araguaneybits.core.network.BlockHeader;
-import com.araguaneybits.core.network.ServerClient.HistoryTx;
+import com.fecripve.core.network.AddressStatus;
+import com.fecripve.core.network.BlockHeader;
+import com.fecripve.core.network.ServerClient.HistoryTx;
 
 import java.util.List;
 

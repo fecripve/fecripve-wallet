@@ -1,7 +1,7 @@
-package com.araguaneybits.core.network.interfaces;
+package com.fecripve.core.network.interfaces;
 
-import com.araguaneybits.core.network.AddressStatus;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.fecripve.core.network.AddressStatus;
+import com.fecripve.core.wallet.AbstractAddress;
 
 import org.bitcoinj.core.Sha256Hash;
 

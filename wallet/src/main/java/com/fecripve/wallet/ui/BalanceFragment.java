@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -18,24 +18,24 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.WalletConnectivityStatus;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.widget.Amount;
-import com.araguaneybits.wallet.ui.widget.SwipeRefreshLayout;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.util.GenericUtils;
+import com.fecripve.core.wallet.AbstractTransaction;
+import com.fecripve.core.wallet.AbstractWallet;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.core.wallet.WalletConnectivityStatus;
+import com.fecripve.wallet.AddressBookProvider;
+import com.fecripve.wallet.Configuration;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.ExchangeRatesProvider;
+import com.fecripve.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.ui.widget.Amount;
+import com.fecripve.wallet.ui.widget.SwipeRefreshLayout;
+import com.fecripve.wallet.util.ThrottlingWalletChangeListener;
+import com.fecripve.wallet.util.WeakHandler;
 import com.google.common.collect.Lists;
 
 import org.bitcoinj.core.Coin;
@@ -121,7 +121,7 @@ public class BalanceFragment extends WalletFragment implements LoaderCallbacks<L
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.araguaneybits.wallet.ui.AccountFragment
+        // The onCreateOptionsMenu is handled in com.fecripve.wallet.ui.AccountFragment
         setHasOptionsMenu(true);
 
         if (getArguments() != null) {

@@ -1,11 +1,11 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.DogecoinMain;
-import com.araguaneybits.core.coins.DogecoinTest;
-import com.araguaneybits.core.coins.LitecoinMain;
-import com.araguaneybits.core.protos.Protos;
+import com.fecripve.core.coins.BitcoinMain;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.DogecoinMain;
+import com.fecripve.core.coins.DogecoinTest;
+import com.fecripve.core.coins.LitecoinMain;
+import com.fecripve.core.protos.Protos;
 import org.bitcoinj.crypto.KeyCrypter;
 import org.bitcoinj.crypto.KeyCrypterScrypt;
 import org.bitcoinj.crypto.MnemonicException;

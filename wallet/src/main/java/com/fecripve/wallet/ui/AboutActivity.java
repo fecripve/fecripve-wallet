@@ -1,12 +1,12 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.util.Fonts;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.util.Fonts;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;

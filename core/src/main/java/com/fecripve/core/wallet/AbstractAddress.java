@@ -1,6 +1,6 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.coins.CoinType;
+import com.fecripve.core.coins.CoinType;
 
 import java.io.Serializable;
 

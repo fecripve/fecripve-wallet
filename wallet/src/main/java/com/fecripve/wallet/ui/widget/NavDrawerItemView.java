@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.widget;
+package com.fecripve.wallet.ui.widget;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.araguaneybits.wallet.R;
+import com.fecripve.wallet.R;
 
 /**
  * @author John L. Jegutanis

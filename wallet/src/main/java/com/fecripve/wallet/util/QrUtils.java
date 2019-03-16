@@ -1,11 +1,11 @@
-package com.araguaneybits.wallet.util;
+package com.fecripve.wallet.util;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.widget.ImageView;
 
-import com.araguaneybits.wallet.R;
+import com.fecripve.wallet.R;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.WriterException;

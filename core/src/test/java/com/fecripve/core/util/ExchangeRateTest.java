@@ -1,4 +1,4 @@
-package com.araguaneybits.core.util;
+package com.fecripve.core.util;
 
 /*
  * Copyright 2014 Andreas Schildbach
@@ -17,13 +17,13 @@ package com.araguaneybits.core.util;
  * limitations under the License.
  */
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.FiatType;
-import com.araguaneybits.core.coins.FiatValue;
-import com.araguaneybits.core.coins.LitecoinMain;
-import com.araguaneybits.core.coins.NuBitsMain;
-import com.araguaneybits.core.coins.Value;
+import com.fecripve.core.coins.BitcoinMain;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.FiatType;
+import com.fecripve.core.coins.FiatValue;
+import com.fecripve.core.coins.LitecoinMain;
+import com.fecripve.core.coins.NuBitsMain;
+import com.fecripve.core.coins.Value;
 
 import org.junit.Test;
 

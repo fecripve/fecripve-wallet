@@ -1,4 +1,4 @@
-package com.araguaneybits.core.network;
+package com.fecripve.core.network;
 
 /**
  * @author John L. Jegutanis

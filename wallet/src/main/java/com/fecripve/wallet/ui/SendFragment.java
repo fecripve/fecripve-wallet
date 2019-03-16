@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -31,36 +31,36 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.FiatType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.ValueType;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.exceptions.NoSuchPocketException;
-import com.araguaneybits.core.exchange.shapeshift.ShapeShift;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
-import com.araguaneybits.core.messages.MessageFactory;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.uri.CoinURI;
-import com.araguaneybits.core.uri.CoinURIParseException;
-import com.araguaneybits.core.util.ExchangeRate;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.tasks.MarketInfoPollTask;
-import com.araguaneybits.wallet.ui.widget.AddressView;
-import com.araguaneybits.wallet.ui.widget.AmountEditView;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.UiUtils;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.FiatType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.ValueType;
+import com.fecripve.core.coins.families.NxtFamily;
+import com.fecripve.core.exceptions.AddressMalformedException;
+import com.fecripve.core.exceptions.NoSuchPocketException;
+import com.fecripve.core.exchange.shapeshift.ShapeShift;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
+import com.fecripve.core.messages.MessageFactory;
+import com.fecripve.core.messages.TxMessage;
+import com.fecripve.core.uri.CoinURI;
+import com.fecripve.core.uri.CoinURIParseException;
+import com.fecripve.core.util.ExchangeRate;
+import com.fecripve.core.util.GenericUtils;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.AddressBookProvider;
+import com.fecripve.wallet.Configuration;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.ExchangeRatesProvider;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.tasks.MarketInfoPollTask;
+import com.fecripve.wallet.ui.widget.AddressView;
+import com.fecripve.wallet.ui.widget.AmountEditView;
+import com.fecripve.wallet.util.ThrottlingWalletChangeListener;
+import com.fecripve.wallet.util.UiUtils;
+import com.fecripve.wallet.util.WeakHandler;
 import com.google.common.base.Charsets;
 
 import org.acra.ACRA;
@@ -87,11 +87,11 @@ import butterknife.OnClick;
 import static android.view.View.GONE;
 import static android.view.View.OnClickListener;
 import static android.view.View.VISIBLE;
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.coins.Value.canCompare;
-import static com.araguaneybits.wallet.ExchangeRatesProvider.getRates;
-import static com.araguaneybits.wallet.util.UiUtils.setGone;
-import static com.araguaneybits.wallet.util.UiUtils.setVisible;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.core.coins.Value.canCompare;
+import static com.fecripve.wallet.ExchangeRatesProvider.getRates;
+import static com.fecripve.wallet.util.UiUtils.setGone;
+import static com.fecripve.wallet.util.UiUtils.setVisible;
 
 /**
  * Fragment that prepares a transaction
@@ -205,7 +205,7 @@ public class SendFragment extends WalletFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.araguaneybits.wallet.ui.AccountFragment
+        // The onCreateOptionsMenu is handled in com.fecripve.wallet.ui.AccountFragment
         setHasOptionsMenu(true);
 
         Bundle args = getArguments();
@@ -1159,7 +1159,7 @@ public class SendFragment extends WalletFragment {
         @Override
         public void onLoadFinished(final Loader<Cursor> loader, final Cursor data) {
             if (data != null && data.getCount() > 0) {
-                HashMap<String, com.araguaneybits.core.util.ExchangeRate> rates = new HashMap<>(data.getCount());
+                HashMap<String, com.fecripve.core.util.ExchangeRate> rates = new HashMap<>(data.getCount());
                 data.moveToFirst();
                 do {
                     ExchangeRatesProvider.ExchangeRate rate = ExchangeRatesProvider.getExchangeRate(data);

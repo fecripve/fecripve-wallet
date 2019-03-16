@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,21 +18,21 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.adaptors.AccountListAdapter;
-import com.araguaneybits.wallet.ui.widget.Amount;
-import com.araguaneybits.wallet.ui.widget.SwipeRefreshLayout;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.UiUtils;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.util.GenericUtils;
+import com.fecripve.core.wallet.Wallet;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.Configuration;
+import com.fecripve.wallet.ExchangeRatesProvider;
+import com.fecripve.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.ui.adaptors.AccountListAdapter;
+import com.fecripve.wallet.ui.widget.Amount;
+import com.fecripve.wallet.ui.widget.SwipeRefreshLayout;
+import com.fecripve.wallet.util.ThrottlingWalletChangeListener;
+import com.fecripve.wallet.util.UiUtils;
+import com.fecripve.wallet.util.WeakHandler;
 import com.google.common.collect.ImmutableMap;
 
 import org.bitcoinj.utils.Threading;

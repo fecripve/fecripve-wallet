@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.widget;
+package com.fecripve.wallet.ui.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,10 +9,10 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.R;
+import com.fecripve.core.util.GenericUtils;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.wallet.AddressBookProvider;
+import com.fecripve.wallet.R;
 
 /**
  * @author John L. Jegutanis

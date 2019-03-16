@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet;
+package com.fecripve.wallet;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
@@ -9,19 +9,19 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftTxStatus;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.exceptions.AddressMalformedException;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftTxStatus;
+import com.fecripve.core.wallet.AbstractAddress;
 
 import java.io.Serializable;
 import java.util.List;
 
 import javax.annotation.Nonnull;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkNotNull;
 
 /**
  * @author John L. Jegutanis

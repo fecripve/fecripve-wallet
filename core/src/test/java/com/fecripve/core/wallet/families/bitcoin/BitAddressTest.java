@@ -1,10 +1,10 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.fecripve.core.wallet.families.bitcoin;
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.LitecoinMain;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.fecripve.core.coins.BitcoinMain;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.LitecoinMain;
+import com.fecripve.core.exceptions.AddressMalformedException;
+import com.fecripve.core.wallet.AbstractAddress;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.AddressFormatException;

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,16 +17,16 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeHistoryProvider;
-import com.araguaneybits.wallet.ExchangeHistoryProvider.ExchangeEntry;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.widget.AddressView;
-import com.araguaneybits.wallet.ui.widget.Amount;
-import com.araguaneybits.wallet.util.Fonts;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.wallet.Configuration;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.ExchangeHistoryProvider;
+import com.fecripve.wallet.ExchangeHistoryProvider.ExchangeEntry;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.ui.widget.AddressView;
+import com.fecripve.wallet.ui.widget.Amount;
+import com.fecripve.wallet.util.Fonts;
 
 import org.bitcoinj.core.Coin;
 
@@ -40,7 +40,7 @@ public final class ExchangeHistoryFragment extends ListFragment {
     private Context activity;
     private WalletApplication application;
     private Configuration config;
-    private com.araguaneybits.core.wallet.Wallet wallet;
+    private com.fecripve.core.wallet.Wallet wallet;
     private Uri contentUri;
     private LoaderManager loaderManager;
 

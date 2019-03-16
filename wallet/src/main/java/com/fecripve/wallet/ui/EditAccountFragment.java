@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -10,14 +10,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
 
 import butterknife.ButterKnife;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.wallet.Constants.ARG_ACCOUNT_ID;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.wallet.Constants.ARG_ACCOUNT_ID;
 
 /**
  * @author John L. Jegutanis

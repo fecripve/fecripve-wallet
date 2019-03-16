@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -21,29 +21,29 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.FiatType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.BitFamily;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.exceptions.UnsupportedCoinTypeException;
-import com.araguaneybits.core.uri.CoinURI;
-import com.araguaneybits.core.util.ExchangeRate;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.dialogs.CreateNewAddressDialog;
-import com.araguaneybits.wallet.ui.widget.AmountEditView;
-import com.araguaneybits.wallet.util.QrUtils;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.UiUtils;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.FiatType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.families.BitFamily;
+import com.fecripve.core.coins.families.NxtFamily;
+import com.fecripve.core.exceptions.UnsupportedCoinTypeException;
+import com.fecripve.core.uri.CoinURI;
+import com.fecripve.core.util.ExchangeRate;
+import com.fecripve.core.util.GenericUtils;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.AddressBookProvider;
+import com.fecripve.wallet.Configuration;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.ExchangeRatesProvider;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.ui.dialogs.CreateNewAddressDialog;
+import com.fecripve.wallet.ui.widget.AmountEditView;
+import com.fecripve.wallet.util.QrUtils;
+import com.fecripve.wallet.util.ThrottlingWalletChangeListener;
+import com.fecripve.wallet.util.UiUtils;
+import com.fecripve.wallet.util.WeakHandler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -55,8 +55,8 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.wallet.ExchangeRatesProvider.getRate;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.wallet.ExchangeRatesProvider.getRate;
 
 /**
  *
@@ -152,8 +152,8 @@ public class AddressRequestFragment extends WalletFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // The onCreateOptionsMenu is handled in com.araguaneybits.wallet.ui.AccountFragment
-        // or in com.araguaneybits.wallet.ui.PreviousAddressesActivity
+        // The onCreateOptionsMenu is handled in com.fecripve.wallet.ui.AccountFragment
+        // or in com.fecripve.wallet.ui.PreviousAddressesActivity
         setHasOptionsMenu(true);
 
         WalletApplication walletApplication = (WalletApplication) getActivity().getApplication();

@@ -1,14 +1,14 @@
-package com.araguaneybits.core.util;
+package com.fecripve.core.util;
 
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.ValueType;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
-import com.araguaneybits.core.wallet.families.nxt.NxtAddress;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.ValueType;
+import com.fecripve.core.exceptions.AddressMalformedException;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.families.bitcoin.BitAddress;
+import com.fecripve.core.wallet.families.nxt.NxtAddress;
 import com.google.common.collect.ImmutableList;
 
 import org.bitcoinj.core.AddressFormatException;

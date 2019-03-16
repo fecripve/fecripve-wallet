@@ -1,11 +1,11 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.protos.Protos;
+import com.fecripve.core.protos.Protos;
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.crypto.KeyCrypter;
 import org.bitcoinj.wallet.BasicKeyChain;
 
-import com.araguaneybits.core.util.KeyUtils;
+import com.fecripve.core.util.KeyUtils;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

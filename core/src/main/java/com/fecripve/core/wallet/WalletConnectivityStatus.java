@@ -1,4 +1,4 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
 /**
  * @author John L. Jegutanis

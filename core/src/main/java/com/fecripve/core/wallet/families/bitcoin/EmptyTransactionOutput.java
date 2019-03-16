@@ -1,4 +1,4 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.fecripve.core.wallet.families.bitcoin;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.NetworkParameters;

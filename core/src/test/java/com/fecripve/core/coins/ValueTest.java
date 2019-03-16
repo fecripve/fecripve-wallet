@@ -1,4 +1,4 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
 /**
  * Copyright 2014 Andreas Schildbach
@@ -18,7 +18,7 @@ package com.araguaneybits.core.coins;
  */
 
 
-import static com.araguaneybits.core.coins.Value.*;
+import static com.fecripve.core.coins.Value.*;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;

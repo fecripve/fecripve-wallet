@@ -1,10 +1,10 @@
-package com.araguaneybits.core.exchange.shapeshift.data;
+package com.fecripve.core.exchange.shapeshift.data;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exchange.shapeshift.ShapeShift;
-import com.araguaneybits.core.util.ExchangeRate;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.exchange.shapeshift.ShapeShift;
+import com.fecripve.core.util.ExchangeRate;
+import com.fecripve.core.wallet.AbstractAddress;
 
 import org.json.JSONObject;
 

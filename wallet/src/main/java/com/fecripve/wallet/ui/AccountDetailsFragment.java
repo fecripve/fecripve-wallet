@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -10,14 +10,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.util.QrUtils;
-import com.araguaneybits.wallet.util.UiUtils;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.util.QrUtils;
+import com.fecripve.wallet.util.UiUtils;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkNotNull;
 
 /**
  * @author John L. Jegutanis

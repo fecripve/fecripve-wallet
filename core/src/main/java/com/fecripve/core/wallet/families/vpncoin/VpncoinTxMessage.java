@@ -1,9 +1,9 @@
-package com.araguaneybits.core.wallet.families.vpncoin;
+package com.fecripve.core.wallet.families.vpncoin;
 
-import com.araguaneybits.core.messages.MessageFactory;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.families.bitcoin.BitTransaction;
+import com.fecripve.core.messages.MessageFactory;
+import com.fecripve.core.messages.TxMessage;
+import com.fecripve.core.wallet.AbstractTransaction;
+import com.fecripve.core.wallet.families.bitcoin.BitTransaction;
 import com.google.common.base.Charsets;
 
 import org.bitcoinj.core.Transaction;
@@ -20,7 +20,7 @@ import java.util.zip.Inflater;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkArgument;
+import static com.fecripve.core.Preconditions.checkArgument;
 
 /**
  * @author John L. Jegutanis

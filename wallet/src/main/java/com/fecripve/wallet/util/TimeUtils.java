@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.util;
+package com.fecripve.wallet.util;
 
 import android.content.Context;
 import android.text.format.DateUtils;

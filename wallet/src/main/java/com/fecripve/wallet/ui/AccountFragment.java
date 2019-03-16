@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -16,14 +16,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.araguaneybits.core.uri.CoinURI;
-import com.araguaneybits.core.uri.CoinURIParseException;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.util.Keyboard;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.fecripve.core.uri.CoinURI;
+import com.fecripve.core.uri.CoinURIParseException;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.util.Keyboard;
+import com.fecripve.wallet.util.WeakHandler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,7 +33,7 @@ import javax.annotation.Nullable;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-import static com.araguaneybits.wallet.util.UiUtils.toastGenericError;
+import static com.fecripve.wallet.util.UiUtils.toastGenericError;
 
 /**
  * @author John L. Jegutanis

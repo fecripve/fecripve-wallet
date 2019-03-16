@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet;
+package com.fecripve.wallet;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -29,12 +29,12 @@ import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.provider.BaseColumns;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.FiatValue;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.util.ExchangeRateBase;
-import com.araguaneybits.wallet.util.NetworkUtils;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.FiatValue;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.util.ExchangeRateBase;
+import com.fecripve.wallet.util.NetworkUtils;
 import com.google.common.collect.ImmutableMap;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet;
+package com.fecripve.wallet;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -14,19 +14,19 @@ import android.preference.PreferenceManager;
 import android.support.multidex.MultiDexApplication;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exchange.shapeshift.ShapeShift;
-import com.araguaneybits.core.util.HardwareSoftwareCompliance;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.WalletProtobufSerializer;
-import com.araguaneybits.wallet.service.CoinService;
-import com.araguaneybits.wallet.service.CoinServiceImpl;
-import com.araguaneybits.wallet.util.Fonts;
-import com.araguaneybits.wallet.util.LinuxSecureRandom;
-import com.araguaneybits.wallet.util.NetworkUtils;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.exchange.shapeshift.ShapeShift;
+import com.fecripve.core.util.HardwareSoftwareCompliance;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.Wallet;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.core.wallet.WalletProtobufSerializer;
+import com.fecripve.wallet.service.CoinService;
+import com.fecripve.wallet.service.CoinServiceImpl;
+import com.fecripve.wallet.util.Fonts;
+import com.fecripve.wallet.util.LinuxSecureRandom;
+import com.fecripve.wallet.util.NetworkUtils;
 import com.google.common.collect.ImmutableList;
 
 import org.acra.ACRA;

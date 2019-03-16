@@ -1,7 +1,7 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.wallet.families.bitcoin.BitAddress;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableList;
 
@@ -17,7 +17,7 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkNotNull;
 
 /**
  * @author John L. Jegutanis

@@ -1,4 +1,4 @@
-package com.araguaneybits.core.exchange.shapeshift.data;
+package com.fecripve.core.exchange.shapeshift.data;
 
 /**
  * Copyright 2014 Andreas Schildbach
@@ -18,10 +18,10 @@ package com.araguaneybits.core.exchange.shapeshift.data;
  */
 
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.ValueType;
-import com.araguaneybits.core.util.ExchangeRateBase;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.ValueType;
+import com.fecripve.core.util.ExchangeRateBase;
 
 import org.bitcoinj.core.Coin;
 
@@ -29,7 +29,7 @@ import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkState;
 
 /**
- * An exchange rate is expressed as a ratio of a pair of {@link com.araguaneybits.core.coins.Value} amounts.
+ * An exchange rate is expressed as a ratio of a pair of {@link com.fecripve.core.coins.Value} amounts.
  */
 public class ShapeShiftExchangeRate extends ExchangeRateBase {
     public final Value minerFee;

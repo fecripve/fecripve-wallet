@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.util;
+package com.fecripve.wallet.util;
 
 import android.content.res.AssetManager;
 import android.graphics.Paint;

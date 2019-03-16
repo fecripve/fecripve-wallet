@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.util;
+package com.fecripve.wallet.util;
 
 /*
  * Copyright 2013-2014 the original author or authors.
@@ -23,11 +23,11 @@ import java.util.concurrent.atomic.AtomicLong;
 
 import android.os.Handler;
 
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.WalletAccountEventListener;
-import com.araguaneybits.core.wallet.WalletConnectivityStatus;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.wallet.AbstractTransaction;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.core.wallet.WalletAccountEventListener;
+import com.fecripve.core.wallet.WalletConnectivityStatus;
 
 /**
  * @author Andreas Schildbach

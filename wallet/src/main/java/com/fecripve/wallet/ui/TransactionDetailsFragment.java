@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 
 import android.content.Intent;
@@ -15,18 +15,18 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractTransaction.AbstractOutput;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.util.ThrottlingWalletChangeListener;
-import com.araguaneybits.wallet.util.TimeUtils;
-import com.araguaneybits.wallet.util.UiUtils;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.messages.TxMessage;
+import com.fecripve.core.wallet.AbstractTransaction;
+import com.fecripve.core.wallet.AbstractTransaction.AbstractOutput;
+import com.fecripve.core.wallet.AbstractWallet;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.util.ThrottlingWalletChangeListener;
+import com.fecripve.wallet.util.TimeUtils;
+import com.fecripve.wallet.util.UiUtils;
+import com.fecripve.wallet.util.WeakHandler;
 
 import org.acra.ACRA;
 import org.slf4j.Logger;

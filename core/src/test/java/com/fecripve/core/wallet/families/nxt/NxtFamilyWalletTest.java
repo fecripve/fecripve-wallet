@@ -1,18 +1,18 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.fecripve.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.NxtMain;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.coins.nxt.Account;
-import com.araguaneybits.core.coins.nxt.Attachment;
-import com.araguaneybits.core.coins.nxt.Convert;
-import com.araguaneybits.core.coins.nxt.NxtException;
-import com.araguaneybits.core.coins.nxt.Transaction;
-import com.araguaneybits.core.coins.nxt.TransactionImpl;
-import com.araguaneybits.core.protos.Protos;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.NxtMain;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.families.NxtFamily;
+import com.fecripve.core.coins.nxt.Account;
+import com.fecripve.core.coins.nxt.Attachment;
+import com.fecripve.core.coins.nxt.Convert;
+import com.fecripve.core.coins.nxt.NxtException;
+import com.fecripve.core.coins.nxt.Transaction;
+import com.fecripve.core.coins.nxt.TransactionImpl;
+import com.fecripve.core.protos.Protos;
+import com.fecripve.core.wallet.Wallet;
+import com.fecripve.core.wallet.WalletAccount;
 
 import org.bitcoinj.crypto.DeterministicHierarchy;
 import org.bitcoinj.crypto.DeterministicKey;

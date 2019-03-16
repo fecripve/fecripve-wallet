@@ -1,7 +1,7 @@
-package com.araguaneybits.core.coins.families;
+package com.fecripve.core.coins.families;
 
-import com.araguaneybits.core.messages.MessageFactory;
-import com.araguaneybits.core.wallet.families.vpncoin.VpncoinTxMessage;
+import com.fecripve.core.messages.MessageFactory;
+import com.fecripve.core.wallet.families.vpncoin.VpncoinTxMessage;
 
 import javax.annotation.Nullable;
 

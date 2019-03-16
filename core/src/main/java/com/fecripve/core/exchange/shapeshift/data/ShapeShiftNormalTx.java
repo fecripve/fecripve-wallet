@@ -1,8 +1,8 @@
-package com.araguaneybits.core.exchange.shapeshift.data;
+package com.fecripve.core.exchange.shapeshift.data;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.exchange.shapeshift.ShapeShift;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.exchange.shapeshift.ShapeShift;
+import com.fecripve.core.wallet.AbstractAddress;
 
 import org.json.JSONObject;
 

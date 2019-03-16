@@ -1,4 +1,4 @@
-package com.araguaneybits.stratumj.messages;
+package com.fecripve.stratumj.messages;
 
 import org.json.JSONArray;
 import org.json.JSONException;

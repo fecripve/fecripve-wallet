@@ -1,15 +1,15 @@
-package com.araguaneybits.core.exchange.shapeshift.data;
+package com.fecripve.core.exchange.shapeshift.data;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exchange.shapeshift.ShapeShift;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.exchange.shapeshift.ShapeShift;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.math.RoundingMode;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.fecripve.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

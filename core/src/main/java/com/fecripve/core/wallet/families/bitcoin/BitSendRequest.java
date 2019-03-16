@@ -1,15 +1,15 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.fecripve.core.wallet.families.bitcoin;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.BitFamily;
-import com.araguaneybits.core.util.TypeUtils;
-import com.araguaneybits.core.wallet.SendRequest;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.families.BitFamily;
+import com.fecripve.core.util.TypeUtils;
+import com.fecripve.core.wallet.SendRequest;
 
 import org.bitcoinj.core.Coin;
 import org.bitcoinj.core.Transaction;
 
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.fecripve.core.Preconditions.checkState;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**

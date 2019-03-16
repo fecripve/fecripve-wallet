@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.util;
+package com.fecripve.wallet.util;
 
 /*
  * Copyright 2014 the original author or authors.
@@ -18,7 +18,7 @@ package com.araguaneybits.wallet.util;
  */
 
 
-import com.araguaneybits.wallet.Constants;
+import com.fecripve.wallet.Constants;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

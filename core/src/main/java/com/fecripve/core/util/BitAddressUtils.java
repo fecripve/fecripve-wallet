@@ -1,12 +1,12 @@
-package com.araguaneybits.core.util;
+package com.fecripve.core.util;
 
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
+import com.fecripve.core.exceptions.AddressMalformedException;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.families.bitcoin.BitAddress;
 
 import org.bitcoinj.script.Script;
 
-import static com.araguaneybits.core.Preconditions.checkArgument;
+import static com.fecripve.core.Preconditions.checkArgument;
 
 /**
  * @author John L. Jegutanis

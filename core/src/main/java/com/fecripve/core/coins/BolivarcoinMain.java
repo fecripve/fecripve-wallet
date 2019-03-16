@@ -1,7 +1,7 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
 
-import com.araguaneybits.core.coins.families.BitFamily;
+import com.fecripve.core.coins.families.BitFamily;
 
 /**
  * Created by jestevez

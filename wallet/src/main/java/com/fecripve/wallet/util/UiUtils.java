@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.util;
+package com.fecripve.wallet.util;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -17,18 +17,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.araguaneybits.core.uri.CoinURI;
-import com.araguaneybits.core.uri.CoinURIParseException;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.ui.AccountDetailsActivity;
-import com.araguaneybits.wallet.ui.EditAccountFragment;
-import com.araguaneybits.wallet.ui.EditAddressBookEntryFragment;
+import com.fecripve.core.uri.CoinURI;
+import com.fecripve.core.uri.CoinURIParseException;
+import com.fecripve.core.util.GenericUtils;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.Wallet;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.AddressBookProvider;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.ui.AccountDetailsActivity;
+import com.fecripve.wallet.ui.EditAccountFragment;
+import com.fecripve.wallet.ui.EditAddressBookEntryFragment;
 
 import org.acra.ACRA;
 import org.slf4j.Logger;

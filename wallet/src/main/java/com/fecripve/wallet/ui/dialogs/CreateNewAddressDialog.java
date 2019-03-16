@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui.dialogs;
+package com.fecripve.wallet.ui.dialogs;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -14,15 +14,15 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.exceptions.Bip44KeyLookAheadExceededException;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.WalletPocketHD;
-import com.araguaneybits.wallet.AddressBookProvider;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.DialogBuilder;
+import com.fecripve.core.exceptions.Bip44KeyLookAheadExceededException;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.core.wallet.WalletPocketHD;
+import com.fecripve.wallet.AddressBookProvider;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.ui.DialogBuilder;
 
 import javax.annotation.Nullable;
 

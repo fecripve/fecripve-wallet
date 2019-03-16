@@ -1,4 +1,4 @@
-package com.araguaneybits.core;
+package com.fecripve.core;
 
 import com.google.common.base.Joiner;
 

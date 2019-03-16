@@ -1,4 +1,4 @@
-package com.araguaneybits.core.coins.nxt;
+package com.fecripve.core.coins.nxt;
 
 import org.spongycastle.crypto.CipherParameters;
 import org.spongycastle.crypto.InvalidCipherTextException;

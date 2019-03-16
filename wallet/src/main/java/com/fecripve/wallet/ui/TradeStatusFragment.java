@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.app.AlertDialog;
 import android.content.ContentResolver;
@@ -26,19 +26,19 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.exchange.shapeshift.ShapeShift;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftException;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftTxStatus;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeHistoryProvider;
-import com.araguaneybits.wallet.ExchangeHistoryProvider.ExchangeEntry;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.util.Fonts;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.exchange.shapeshift.ShapeShift;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftException;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftTxStatus;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.ExchangeHistoryProvider;
+import com.fecripve.wallet.ExchangeHistoryProvider.ExchangeEntry;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.util.Fonts;
+import com.fecripve.wallet.util.WeakHandler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -48,10 +48,10 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.wallet.util.UiUtils.setGone;
-import static com.araguaneybits.wallet.util.UiUtils.setInvisible;
-import static com.araguaneybits.wallet.util.UiUtils.setVisible;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.wallet.util.UiUtils.setGone;
+import static com.fecripve.wallet.util.UiUtils.setInvisible;
+import static com.fecripve.wallet.util.UiUtils.setVisible;
 
 /**
  * @author John L. Jegutanis

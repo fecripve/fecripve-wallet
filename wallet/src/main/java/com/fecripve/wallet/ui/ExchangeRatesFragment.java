@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -37,19 +37,19 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
-import com.araguaneybits.wallet.ExchangeRatesProvider.ExchangeRate;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.ui.widget.Amount;
-import com.araguaneybits.wallet.util.WalletUtils;
+import com.fecripve.core.coins.BitcoinMain;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.util.GenericUtils;
+import com.fecripve.wallet.Configuration;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.ExchangeRatesProvider;
+import com.fecripve.wallet.ExchangeRatesProvider.ExchangeRate;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.ui.widget.Amount;
+import com.fecripve.wallet.util.WalletUtils;
 
 import org.bitcoinj.core.Coin;
 
@@ -64,7 +64,7 @@ public final class ExchangeRatesFragment extends ListFragment implements OnShare
     private Context context;
     private WalletApplication application;
     private Configuration config;
-    private com.araguaneybits.core.wallet.Wallet wallet;
+    private com.fecripve.core.wallet.Wallet wallet;
     private Uri contentUri;
     private LoaderManager loaderManager;
 

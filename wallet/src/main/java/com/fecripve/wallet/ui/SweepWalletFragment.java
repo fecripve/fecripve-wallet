@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -18,20 +18,20 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.network.ConnectivityHelper;
-import com.araguaneybits.core.network.ServerClients;
-import com.araguaneybits.core.wallet.BitWalletSingleKey;
-import com.araguaneybits.core.wallet.SendRequest;
-import com.araguaneybits.core.wallet.SerializedKey;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.families.bitcoin.BitTransaction;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.R;
-import com.araguaneybits.wallet.WalletApplication;
-import com.araguaneybits.wallet.util.Keyboard;
-import com.araguaneybits.wallet.util.WeakHandler;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.network.ConnectivityHelper;
+import com.fecripve.core.network.ServerClients;
+import com.fecripve.core.wallet.BitWalletSingleKey;
+import com.fecripve.core.wallet.SendRequest;
+import com.fecripve.core.wallet.SerializedKey;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.core.wallet.families.bitcoin.BitTransaction;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.R;
+import com.fecripve.wallet.WalletApplication;
+import com.fecripve.wallet.util.Keyboard;
+import com.fecripve.wallet.util.WeakHandler;
 
 import org.bitcoinj.core.TransactionInput;
 import org.bitcoinj.core.TransactionOutPoint;
@@ -47,9 +47,9 @@ import butterknife.OnFocusChange;
 import butterknife.OnTextChanged;
 
 import static butterknife.OnTextChanged.Callback.AFTER_TEXT_CHANGED;
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.wallet.util.UiUtils.setGone;
-import static com.araguaneybits.wallet.util.UiUtils.setVisible;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.wallet.util.UiUtils.setGone;
+import static com.fecripve.wallet.util.UiUtils.setVisible;
 
 
 /**

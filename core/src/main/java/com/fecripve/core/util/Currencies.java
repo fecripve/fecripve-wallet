@@ -1,4 +1,4 @@
-package com.araguaneybits.core.util;
+package com.fecripve.core.util;
 
 import com.google.common.collect.ImmutableMap;
 

@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.service;
+package com.fecripve.wallet.service;
 
 import android.app.NotificationManager;
 import android.app.Service;
@@ -13,14 +13,14 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.text.format.DateUtils;
 
-import com.araguaneybits.core.network.ConnectivityHelper;
-import com.araguaneybits.core.network.ServerClients;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.Constants;
-import com.araguaneybits.wallet.WalletApplication;
+import com.fecripve.core.network.ConnectivityHelper;
+import com.fecripve.core.network.ServerClients;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.Wallet;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.wallet.Configuration;
+import com.fecripve.wallet.Constants;
+import com.fecripve.wallet.WalletApplication;
 
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.core.Transaction;

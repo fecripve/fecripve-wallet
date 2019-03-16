@@ -1,19 +1,19 @@
-package com.araguaneybits.core.exchange.shapeshift;
+package com.fecripve.core.exchange.shapeshift;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftAmountTx;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftCoins;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftEmail;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftException;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftLimit;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftNormalTx;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftRate;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftTime;
-import com.araguaneybits.core.exchange.shapeshift.data.ShapeShiftTxStatus;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftAmountTx;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftCoins;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftEmail;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftException;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftLimit;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftMarketInfo;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftNormalTx;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftRate;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftTime;
+import com.fecripve.core.exchange.shapeshift.data.ShapeShiftTxStatus;
+import com.fecripve.core.wallet.AbstractAddress;
 import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
@@ -27,8 +27,8 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

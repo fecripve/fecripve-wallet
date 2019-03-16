@@ -1,8 +1,8 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 import android.os.Bundle;
 
-import com.araguaneybits.wallet.R;
+import com.fecripve.wallet.R;
 
 public class TransactionDetailsActivity extends BaseWalletActivity {
 

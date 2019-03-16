@@ -1,28 +1,28 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.fecripve.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.nxt.Convert;
-import com.araguaneybits.core.coins.nxt.NxtException;
-import com.araguaneybits.core.coins.nxt.Transaction;
-import com.araguaneybits.core.exceptions.TransactionBroadcastException;
-import com.araguaneybits.core.network.AddressStatus;
-import com.araguaneybits.core.network.BlockHeader;
-import com.araguaneybits.core.network.NxtServerClient;
-import com.araguaneybits.core.network.ServerClient;
-import com.araguaneybits.core.network.interfaces.BlockchainConnection;
-import com.araguaneybits.core.network.interfaces.TransactionEventListener;
-import com.araguaneybits.core.protos.Protos;
-import com.araguaneybits.core.util.KeyUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractWallet;
-import com.araguaneybits.core.wallet.SendRequest;
-import com.araguaneybits.core.wallet.SignedMessage;
-import com.araguaneybits.core.wallet.Wallet;
-import com.araguaneybits.core.wallet.WalletAccount;
-import com.araguaneybits.core.wallet.WalletAccountEventListener;
-import com.araguaneybits.core.wallet.WalletConnectivityStatus;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.nxt.Convert;
+import com.fecripve.core.coins.nxt.NxtException;
+import com.fecripve.core.coins.nxt.Transaction;
+import com.fecripve.core.exceptions.TransactionBroadcastException;
+import com.fecripve.core.network.AddressStatus;
+import com.fecripve.core.network.BlockHeader;
+import com.fecripve.core.network.NxtServerClient;
+import com.fecripve.core.network.ServerClient;
+import com.fecripve.core.network.interfaces.BlockchainConnection;
+import com.fecripve.core.network.interfaces.TransactionEventListener;
+import com.fecripve.core.protos.Protos;
+import com.fecripve.core.util.KeyUtils;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.AbstractTransaction;
+import com.fecripve.core.wallet.AbstractWallet;
+import com.fecripve.core.wallet.SendRequest;
+import com.fecripve.core.wallet.SignedMessage;
+import com.fecripve.core.wallet.Wallet;
+import com.fecripve.core.wallet.WalletAccount;
+import com.fecripve.core.wallet.WalletAccountEventListener;
+import com.fecripve.core.wallet.WalletConnectivityStatus;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
@@ -49,8 +49,8 @@ import java.util.concurrent.Executor;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkState;
 import static com.google.common.base.Preconditions.checkArgument;
 
 /**

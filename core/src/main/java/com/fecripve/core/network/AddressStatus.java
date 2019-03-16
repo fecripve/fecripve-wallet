@@ -1,8 +1,8 @@
-package com.araguaneybits.core.network;
+package com.fecripve.core.network;
 
-import com.araguaneybits.core.network.ServerClient.HistoryTx;
-import com.araguaneybits.core.network.ServerClient.UnspentTx;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.fecripve.core.network.ServerClient.HistoryTx;
+import com.fecripve.core.network.ServerClient.UnspentTx;
+import com.fecripve.core.wallet.AbstractAddress;
 import com.google.common.collect.Sets;
 
 import org.bitcoinj.core.Sha256Hash;

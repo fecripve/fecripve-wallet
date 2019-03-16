@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.camera;
+package com.fecripve.wallet.camera;
 
 
 /*

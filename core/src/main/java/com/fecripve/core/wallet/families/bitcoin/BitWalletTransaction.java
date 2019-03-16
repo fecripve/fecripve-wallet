@@ -1,6 +1,6 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.fecripve.core.wallet.families.bitcoin;
 
-import com.araguaneybits.core.wallet.WalletTransaction;
+import com.fecripve.core.wallet.WalletTransaction;
 
 /**
  * @author John L. Jegutanis

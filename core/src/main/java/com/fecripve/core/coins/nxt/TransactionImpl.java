@@ -1,4 +1,4 @@
-package com.araguaneybits.core.coins.nxt;
+package com.fecripve.core.coins.nxt;
 
 //import nxt.NxtException.ValidationException;
 //import nxt.crypto.Crypto;

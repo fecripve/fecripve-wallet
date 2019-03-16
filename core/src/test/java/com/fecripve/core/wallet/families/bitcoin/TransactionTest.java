@@ -1,8 +1,8 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.fecripve.core.wallet.families.bitcoin;
 
-import com.araguaneybits.core.coins.CannacoinMain;
-import com.araguaneybits.core.coins.NuBitsMain;
-import com.araguaneybits.core.coins.PeercoinMain;
+import com.fecripve.core.coins.CannacoinMain;
+import com.fecripve.core.coins.NuBitsMain;
+import com.fecripve.core.coins.PeercoinMain;
 
 import org.bitcoinj.core.Transaction;
 import org.junit.Test;

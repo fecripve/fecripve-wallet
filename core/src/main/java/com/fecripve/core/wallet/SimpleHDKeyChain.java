@@ -1,7 +1,7 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
 
-import com.araguaneybits.core.protos.Protos;
+import com.fecripve.core.protos.Protos;
 import org.bitcoinj.core.BloomFilter;
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.crypto.ChildNumber;
@@ -19,7 +19,7 @@ import org.bitcoinj.wallet.KeyBag;
 import org.bitcoinj.wallet.KeyChainEventListener;
 import org.bitcoinj.wallet.RedeemData;
 
-import com.araguaneybits.core.util.KeyUtils;
+import com.fecripve.core.util.KeyUtils;
 import com.google.common.collect.ImmutableList;
 import com.google.protobuf.ByteString;
 

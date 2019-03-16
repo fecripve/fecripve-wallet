@@ -1,16 +1,16 @@
-package com.araguaneybits.core.network;
+package com.fecripve.core.network;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.nxt.Convert;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.coins.nxt.NxtException;
-import com.araguaneybits.core.coins.nxt.TransactionImpl;
-import com.araguaneybits.core.network.interfaces.BlockchainConnection;
-import com.araguaneybits.core.network.interfaces.ConnectionEventListener;
-import com.araguaneybits.core.network.interfaces.TransactionEventListener;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.nxt.Convert;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.coins.nxt.NxtException;
+import com.fecripve.core.coins.nxt.TransactionImpl;
+import com.fecripve.core.network.interfaces.BlockchainConnection;
+import com.fecripve.core.network.interfaces.ConnectionEventListener;
+import com.fecripve.core.network.interfaces.TransactionEventListener;
 
-import com.araguaneybits.core.wallet.families.nxt.NxtTransaction;
-import com.araguaneybits.stratumj.ServerAddress;
+import com.fecripve.core.wallet.families.nxt.NxtTransaction;
+import com.fecripve.stratumj.ServerAddress;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.Service;

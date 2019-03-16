@@ -1,4 +1,4 @@
-package com.araguaneybits.core.uri;
+package com.fecripve.core.uri;
 
 /**
  * <p>This exception occurs when a required field is detected (under the BIP21 rules) and fails

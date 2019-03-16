@@ -16,13 +16,13 @@
  * limitations under the License.
  */
 
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
-import com.araguaneybits.core.wallet.families.bitcoin.BitSendRequest;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.exceptions.AddressMalformedException;
+import com.fecripve.core.wallet.families.bitcoin.BitAddress;
+import com.fecripve.core.wallet.families.bitcoin.BitSendRequest;
 
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.core.InsufficientMoneyException;
@@ -36,10 +36,10 @@ import java.util.Arrays;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
-import static com.araguaneybits.core.util.BitAddressUtils.getHash160;
-import static com.araguaneybits.core.util.BitAddressUtils.isP2SHAddress;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkState;
+import static com.fecripve.core.util.BitAddressUtils.getHash160;
+import static com.fecripve.core.util.BitAddressUtils.isP2SHAddress;
 
 /**
  * @author John L. Jegutanis

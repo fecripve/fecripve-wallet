@@ -1,4 +1,4 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.fecripve.core.wallet.families.bitcoin;
 
 import com.google.common.collect.ImmutableList;
 
@@ -14,9 +14,9 @@ import java.util.List;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkArgument;
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.fecripve.core.Preconditions.checkArgument;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkState;
 
 /**
  * @author John L. Jegutanis

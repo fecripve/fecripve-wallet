@@ -1,10 +1,10 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.fecripve.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.nxt.Convert;
-import com.araguaneybits.core.coins.nxt.Transaction;
-import com.araguaneybits.core.messages.MessageFactory;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.wallet.AbstractTransaction;
+import com.fecripve.core.coins.nxt.Convert;
+import com.fecripve.core.coins.nxt.Transaction;
+import com.fecripve.core.messages.MessageFactory;
+import com.fecripve.core.messages.TxMessage;
+import com.fecripve.core.wallet.AbstractTransaction;
 
 import javax.annotation.Nullable;
 

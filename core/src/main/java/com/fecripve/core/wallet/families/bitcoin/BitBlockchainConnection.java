@@ -1,7 +1,7 @@
-package com.araguaneybits.core.wallet.families.bitcoin;
+package com.fecripve.core.wallet.families.bitcoin;
 
-import com.araguaneybits.core.network.AddressStatus;
-import com.araguaneybits.core.network.interfaces.BlockchainConnection;
+import com.fecripve.core.network.AddressStatus;
+import com.fecripve.core.network.interfaces.BlockchainConnection;
 
 /**
  * @author John L. Jegutanis

@@ -16,17 +16,17 @@
  * 
  */
 
-package com.araguaneybits.core.uri;
+package com.fecripve.core.uri;
 
-import com.araguaneybits.core.coins.CoinID;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.families.NxtFamily;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
-import com.araguaneybits.core.util.GenericUtils;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.families.bitcoin.BitAddress;
-import com.araguaneybits.core.wallet.families.nxt.NxtAddress;
+import com.fecripve.core.coins.CoinID;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.families.NxtFamily;
+import com.fecripve.core.exceptions.AddressMalformedException;
+import com.fecripve.core.util.GenericUtils;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.families.bitcoin.BitAddress;
+import com.fecripve.core.wallet.families.nxt.NxtAddress;
 import com.google.common.collect.Lists;
 
 import org.slf4j.Logger;
@@ -44,8 +44,8 @@ import java.util.Map;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
-import static com.araguaneybits.core.Preconditions.checkState;
+import static com.fecripve.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkState;
 
 /**
  * <p>Provides a standard implementation of a Bitcoin URI with support for the following:</p>
@@ -383,7 +383,7 @@ public class CoinURI implements Serializable {
 
     /**
      * Same as {@link #getType()} but throws an exception if the uri has no type
-     * @return The {@link com.araguaneybits.core.coins.CoinType} of this URI
+     * @return The {@link com.fecripve.core.coins.CoinType} of this URI
      */
     public CoinType getTypeRequired() throws CoinURIParseException {
         if (!hasType()) {
@@ -393,7 +393,7 @@ public class CoinURI implements Serializable {
     }
 
     /**
-     * @return The {@link com.araguaneybits.core.coins.CoinType} of this URI
+     * @return The {@link com.fecripve.core.coins.CoinType} of this URI
      */
     @Nullable
     public CoinType getType() {

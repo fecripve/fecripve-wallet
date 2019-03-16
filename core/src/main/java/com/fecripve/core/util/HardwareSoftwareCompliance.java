@@ -1,4 +1,4 @@
-package com.araguaneybits.core.util;
+package com.fecripve.core.util;
 
 import org.bitcoinj.core.ECKey;
 import org.slf4j.Logger;

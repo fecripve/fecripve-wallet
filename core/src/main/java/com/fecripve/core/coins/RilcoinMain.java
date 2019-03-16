@@ -1,7 +1,7 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
-import com.araguaneybits.core.coins.families.BitFamily;
-import com.araguaneybits.core.coins.nxt.Constants;
+import com.fecripve.core.coins.families.BitFamily;
+import com.fecripve.core.coins.nxt.Constants;
 
 public class RilcoinMain extends BitFamily {
     private static RilcoinMain instance = new RilcoinMain();

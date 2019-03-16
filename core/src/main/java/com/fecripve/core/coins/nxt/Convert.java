@@ -1,4 +1,4 @@
-package com.araguaneybits.core.coins.nxt;
+package com.fecripve.core.coins.nxt;
 
 /******************************************************************************
  * Copyright © 2013-2015 The Nxt Core Developers.                             *
@@ -19,8 +19,8 @@ package com.araguaneybits.core.coins.nxt;
 //import nxt.Constants;
 //import nxt.NxtException;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.families.NxtFamily;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.families.NxtFamily;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

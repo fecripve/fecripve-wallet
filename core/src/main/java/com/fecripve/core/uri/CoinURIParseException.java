@@ -16,7 +16,7 @@
  *
  */
 
-package com.araguaneybits.core.uri;
+package com.fecripve.core.uri;
 
 /**
  * <p>Exception to provide the following to {@link CoinURI}:</p>

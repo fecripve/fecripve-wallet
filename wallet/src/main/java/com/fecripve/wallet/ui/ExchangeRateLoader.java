@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet.ui;
+package com.fecripve.wallet.ui;
 
 /*
  * Copyright 2012-2014 the original author or authors.
@@ -17,8 +17,8 @@ package com.araguaneybits.wallet.ui;
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import com.araguaneybits.wallet.Configuration;
-import com.araguaneybits.wallet.ExchangeRatesProvider;
+import com.fecripve.wallet.Configuration;
+import com.fecripve.wallet.ExchangeRatesProvider;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

@@ -1,9 +1,9 @@
-package com.araguaneybits.stratumj;
+package com.fecripve.stratumj;
 
-import com.araguaneybits.stratumj.messages.BaseMessage;
-import com.araguaneybits.stratumj.messages.CallMessage;
-import com.araguaneybits.stratumj.messages.MessageException;
-import com.araguaneybits.stratumj.messages.ResultMessage;
+import com.fecripve.stratumj.messages.BaseMessage;
+import com.fecripve.stratumj.messages.CallMessage;
+import com.fecripve.stratumj.messages.MessageException;
+import com.fecripve.stratumj.messages.ResultMessage;
 import com.google.common.annotations.VisibleForTesting;
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.AbstractExecutionThreadService;

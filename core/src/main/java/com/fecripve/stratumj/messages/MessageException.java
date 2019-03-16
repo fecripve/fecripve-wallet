@@ -1,4 +1,4 @@
-package com.araguaneybits.stratumj.messages;
+package com.fecripve.stratumj.messages;
 
 /**
  * @author John L. Jegutanis

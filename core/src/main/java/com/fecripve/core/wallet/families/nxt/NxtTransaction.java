@@ -1,12 +1,12 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.fecripve.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.nxt.Transaction;
-import com.araguaneybits.core.messages.TxMessage;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.wallet.AbstractTransaction;
-import com.araguaneybits.core.wallet.AbstractWallet;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.nxt.Transaction;
+import com.fecripve.core.messages.TxMessage;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.wallet.AbstractTransaction;
+import com.fecripve.core.wallet.AbstractWallet;
 import com.google.common.collect.ImmutableList;
 
 import org.bitcoinj.core.Sha256Hash;
@@ -14,7 +14,7 @@ import org.bitcoinj.core.TransactionConfidence;
 
 import java.util.List;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkNotNull;
 
 /**
  * @author vbcs

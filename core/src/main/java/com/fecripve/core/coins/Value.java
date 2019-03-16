@@ -1,4 +1,4 @@
-package com.araguaneybits.core.coins;
+package com.fecripve.core.coins;
 
 /**
  * Copyright 2014 Andreas Schildbach

@@ -1,11 +1,11 @@
-package com.araguaneybits.core.wallet.families.nxt;
+package com.fecripve.core.wallet.families.nxt;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.nxt.Account;
-import com.araguaneybits.core.coins.nxt.Convert;
-import com.araguaneybits.core.coins.nxt.Crypto;
-import com.araguaneybits.core.wallet.AbstractAddress;
-import com.araguaneybits.core.exceptions.AddressMalformedException;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.nxt.Account;
+import com.fecripve.core.coins.nxt.Convert;
+import com.fecripve.core.coins.nxt.Crypto;
+import com.fecripve.core.wallet.AbstractAddress;
+import com.fecripve.core.exceptions.AddressMalformedException;
 
 import javax.annotation.Nullable;
 

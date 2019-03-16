@@ -1,6 +1,6 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.coins.Value;
+import com.fecripve.core.coins.Value;
 
 /**
  * @author John L. Jegutanis

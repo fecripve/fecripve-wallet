@@ -1,8 +1,8 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
 import javax.annotation.Nullable;
 
-import static com.araguaneybits.core.Preconditions.checkNotNull;
+import static com.fecripve.core.Preconditions.checkNotNull;
 
 /**
  * @author John L. Jegutanis

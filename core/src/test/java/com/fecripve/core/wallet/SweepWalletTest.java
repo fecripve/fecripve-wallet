@@ -1,8 +1,8 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.coins.BitcoinMain;
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.DogecoinMain;
+import com.fecripve.core.coins.BitcoinMain;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.DogecoinMain;
 
 import org.junit.Test;
 

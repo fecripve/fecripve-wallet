@@ -1,4 +1,4 @@
-package com.araguaneybits.wallet;
+package com.fecripve.wallet;
 
 /*
  * Copyright 2011-2014 the original author or authors.
@@ -26,8 +26,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteQueryBuilder;
 import android.net.Uri;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.wallet.AbstractAddress;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.wallet.AbstractAddress;
 
 import java.util.List;
 

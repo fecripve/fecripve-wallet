@@ -1,4 +1,4 @@
-package com.araguaneybits.core.network.interfaces;
+package com.fecripve.core.network.interfaces;
 
 /**
  * @author John L. Jegutanis

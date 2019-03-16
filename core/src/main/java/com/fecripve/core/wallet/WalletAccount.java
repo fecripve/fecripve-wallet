@@ -1,10 +1,10 @@
-package com.araguaneybits.core.wallet;
+package com.fecripve.core.wallet;
 
-import com.araguaneybits.core.coins.CoinType;
-import com.araguaneybits.core.coins.Value;
-import com.araguaneybits.core.coins.ValueType;
-import com.araguaneybits.core.exceptions.TransactionBroadcastException;
-import com.araguaneybits.core.network.interfaces.ConnectionEventListener;
+import com.fecripve.core.coins.CoinType;
+import com.fecripve.core.coins.Value;
+import com.fecripve.core.coins.ValueType;
+import com.fecripve.core.exceptions.TransactionBroadcastException;
+import com.fecripve.core.network.interfaces.ConnectionEventListener;
 
 import org.bitcoinj.core.Sha256Hash;
 import org.bitcoinj.crypto.KeyCrypter;
