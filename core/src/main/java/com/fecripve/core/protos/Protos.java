@@ -17268,7 +17268,7 @@ public final class Protos {
       "tos.Transaction\022>\n\016address_status\030\010 \003(\0132" +
       "&.com.fecripve.core.protos.AddressStatus\022" +
       "\n\n\002id\030\t \001(\t\022>\n\016unspent_output\030\n \003(\0132&.co" +
-      "m.araguaneybits.core.protos.UnspentOutput\"N\n\020S" +
+      "m.fecripve.core.protos.UnspentOutput\"N\n\020S" +
       "cryptParameters\022\014\n\004salt\030\001 \002(\014\022\020\n\001n\030\002 \001(\003" +
       ":\00516384\022\014\n\001r\030\003 \001(\005:\0018\022\014\n\001p\030\004 \001(\005:\0011\"\303\003\n\006" +
       "Wallet\022\022\n\007version\030\001 \001(\005:\0011\022*\n\004seed\030\002 \001(\013" +
