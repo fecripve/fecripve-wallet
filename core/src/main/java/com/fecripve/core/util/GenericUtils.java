@@ -246,12 +246,12 @@ public class GenericUtils {
         int version = parsed.getVersion();
         for (CoinType type : CoinID.getSupportedCoins()) {
             if (type.getAcceptableAddressCodes() == null) continue;
-            for (int addressCode : type.getAcceptableAddressCodes()) {
-                if (addressCode == version) {
+
+                if (type.getAddressHeader() == version) {
                     builder.add(type);
-                    break;
+
                 }
-            }
+
         }
     }
 
