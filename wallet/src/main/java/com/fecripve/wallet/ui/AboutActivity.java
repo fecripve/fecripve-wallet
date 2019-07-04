@@ -30,7 +30,7 @@ public class AboutActivity extends BaseWalletActivity {
             version.setVisibility(View.INVISIBLE);
         }
 
-        Fonts.setTypeface(findViewById(R.id.translation_globe), Fonts.Font.COINOMI_FONT_ICONS);
+        //Fonts.setTypeface(findViewById(R.id.translation_globe), Fonts.Font.COINOMI_FONT_ICONS);
     }
 
     @OnClick(R.id.terms_of_service_button)
