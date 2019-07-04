@@ -7,6 +7,8 @@ import com.fecripve.core.coins.families.BitFamily;
  * Created by jestevez
  */
 public class BolivarcoinMain extends BitFamily {
+    private static BolivarcoinMain instance = new BolivarcoinMain();
+
     private BolivarcoinMain() {
         this.id = "bolivarcoin.main";
 
@@ -17,9 +19,10 @@ public class BolivarcoinMain extends BitFamily {
         this.dumpedPrivateKeyHeader = 128 + addressHeader;
         this.name = "Bolivarcoin";
         this.symbol = "BOLI";
-        this.uriScheme = "Bolivarcoin";
-        this.bip44Index = 99; // No esta en https://github.com/satoshilabs/slips
+        this.uriScheme = "bolivarcoin";
+        this.bip44Index = 278;
         this.unitExponent = 8;
+
         this.feeValue = value(10000);
         this.minNonDust = value(1);
         this.softDustLimit = value(1000000);
@@ -27,9 +30,12 @@ public class BolivarcoinMain extends BitFamily {
         this.signedMessageHeader = CoinType.toBytes("Bolivarcoin Signed Message:\n");
     }
 
-    private static BolivarcoinMain instance = new BolivarcoinMain();
-    public static synchronized CoinType get() {
-        return instance;
+    public static synchronized BolivarcoinMain get() {
+        BolivarcoinMain bolivarcoinMain;
+        synchronized (BolivarcoinMain.class) {
+            bolivarcoinMain = instance;
+        }
+        return bolivarcoinMain;
     }
 
 }
