@@ -18,37 +18,39 @@
         android:paddingRight="@dimen/activity_horizontal_margin">
 
         <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_width="394dp"
+            android:layout_height="368dp">
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/coinomi_logo_gradient"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/intro_logo" />
 
             <TextView
+                android:id="@+id/textView"
                 style="@style/AppNameLong"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/app_name_long"
-                android:id="@+id/textView"
-                android:layout_marginTop="172dp"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_marginTop="285dp"
+                android:text="@string/app_name_long" />
 
             <TextView
                 android:id="@+id/about_version"
+                style="@style/NormalText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/NormalText"
-                tools:text="X.Y.Z"
                 android:layout_below="@+id/textView"
+                android:layout_alignStart="@+id/textView"
                 android:layout_alignLeft="@+id/textView"
-                android:layout_alignStart="@+id/textView" />
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                tools:text="X.Y.Z" />
         </RelativeLayout>
 
         <Button
@@ -68,30 +70,40 @@
             <!--android:layout_marginTop="16dp"-->
             <!--android:layout_gravity="center"-->
             <!--android:text="@string/coinomi_website" />-->
+        <!--
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingTop="@dimen/activity_vertical_margin">
+                    <TextView
+                        android:id="@+id/translation_globe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/NormalText"
+                        android:paddingRight="8dp"
+                        android:paddingEnd="8dp"
+                        android:text="@string/font_icon_language"
+                        tools:text="A#"/>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/NormalText"
+                        android:text="@string/about_credits_translations" />
+
+                </LinearLayout>
+            -->
+
+        <TextView
+            style="@style/NormalText"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:paddingTop="@dimen/activity_vertical_margin">
-            <TextView
-                android:id="@+id/translation_globe"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/NormalText"
-                android:paddingRight="8dp"
-                android:paddingEnd="8dp"
-                android:text="@string/font_icon_language"
-                tools:text="A#"/>
+            android:text="@string/about_fecripve" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/NormalText"
-                android:text="@string/about_credits_translations" />
-        </LinearLayout>
-
+        <!--
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -170,7 +182,7 @@
             android:layout_marginBottom="16dp"
             android:src="@drawable/coins_network"
             android:layout_gravity="center_horizontal" />
-
+    -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -180,9 +192,9 @@
             android:text="@string/about_coinomi_copyright" />
 
         <TextView
+            style="@style/NormalText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/NormalText"
             android:layout_gravity="center_horizontal"
             android:paddingTop="16dp"
             android:text="@string/about_araguaney_copyright" />
