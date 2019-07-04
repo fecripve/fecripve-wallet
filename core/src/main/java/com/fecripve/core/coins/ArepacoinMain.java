@@ -19,7 +19,7 @@ public class ArepacoinMain extends PeerFamily {
         this.name = "Arepacoin";
         this.symbol = "AREPA";
         this.uriScheme = "arepacoin";
-        this.bip44Index = 6; // FIXME Usa el mismo que PPC, esto es incorrecto!
+        this.bip44Index = 277;
         this.unitExponent = 8;
 
         this.feeValue = value(100000);
