@@ -15,7 +15,7 @@ android {
     buildToolsVersion '28.0.3'
 
     defaultConfig {
-        applicationId "com.araguaneybits.wallet"
+        applicationId "com.fecripve.wallet"
         minSdkVersion 10
         targetSdkVersion 26
         versionCode 1

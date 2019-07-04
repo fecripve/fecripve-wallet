@@ -36,11 +36,11 @@ sourceSets {
 }
 
 // add the unitTest task
-task unitTest(type:Test, dependsOn: assemble) {
-    description = "run unit tests"
-    testClassesDir = project.sourceSets.unitTest.output.classesDir
-    classpath = project.sourceSets.unitTest.runtimeClasspath
-}
+//task unitTest(type:Test, dependsOn: assemble) {
+//    description = "run unit tests"
+//    testClassesDir = project.sourceSets.unitTest.output.classesDir
+//    classpath = project.sourceSets.unitTest.runtimeClasspath
+//}
 
 // bind to check
-check.dependsOn unitTest
+//check.dependsOn unitTest

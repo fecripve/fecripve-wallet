@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">AragueneyBits MultiWallet</string>
+    <string name="app_name" translatable="false">FECRIPVE Wallet</string>
     <string name="app_package" translatable="false">com.fecripve.wallet</string>
-    <string name="coinomi_website" translatable="false">https://araguaneybits.com</string>
+    <string name="coinomi_website" translatable="false">https://fecripve.com</string>
     <string name="almost_equal_to" translatable="false">≈</string>
     <string name="action_scan_qr_code">Scan</string>
     <string name="action_share">Share</string>
@@ -77,7 +77,7 @@
     <string name="trade">Exchange</string>
     <string name="receive">Receive</string>
     <!-- Welcome fragment -->
-    <string name="welcome_text">Welcome to Araguaneybits wallet</string>
+    <string name="welcome_text">Welcome to FECRIPVE Wallet</string>
     <string name="create_wallet">Create a new wallet</string>
     <string name="restore_wallet">Restore a wallet</string>
     <string name="test_wallet">Test wallet</string>
@@ -86,7 +86,7 @@
     <string name="override_new_wallet_warning_message">If you create a new wallet, your existing wallet will be lost unless you backed up you <i>recovery phrase</i>.</string>
     <string name="override_restore_wallet_warning_message">If you restore a wallet, your existing wallet will be lost unless you backed up you <i>recovery phrase</i>.</string>
     <string name="incompatible_device_warning_title">Incompatible device</string>
-    <string name="incompatible_device_warning_message">This device cannot perform certain cryptographic functions due to software or hardware bugs.\nThis could be solved with an update from the device manufacturer.\n\nContact us if you have any questions: support@araguaneybits.com</string>
+    <string name="incompatible_device_warning_message">This device cannot perform certain cryptographic functions due to software or hardware bugs.\nThis could be solved with an update from the device manufacturer.\n\nContact us if you have any questions: support@fecripve.com</string>
     <!-- Recovery fragment -->
     <string name="seed_info">This is your <i>recovery phrase</i>, which is used to generate the keys for your wallet. Please write it down on a paper and keep it in a secure place, as you would with paper money. Anyone with access to it has access to the wallet\'s funds.\nIf you lose your recovery phrase, your wallet cannot be recovered.</string>
     <string name="seed_title">Your recovery phrase</string>
@@ -106,7 +106,7 @@
     <!-- Wallet activity -->
     <string name="test_wallet_message">This is a test wallet, where you can send and receive testnet Bitcoins, Litecoin and Dogecoins.\n\nIf you want to use the wallet with real money please go to: <b>Settings &gt; Restore wallet &gt; Create a new wallet</b>.</string>
     <string name="wallet_update_title">New version available</string>
-    <string name="wallet_update_message">A new version of Araguaneybits MultiWallet is available, it contains new features and fixes.</string>
+    <string name="wallet_update_message">A new version of FECRIPVE Wallet is available, it contains new features and fixes.</string>
     <string name="pay_with">Send with</string>
     <string name="exchange_and_pay_title">Exchange and send</string>
     <!-- PayToDialog-->
@@ -202,8 +202,8 @@
         <item quantity="other">%d seconds</item>
     </plurals>
     <!-- About Activity -->
-    <string name="title_activity_about">About Araguaneybits</string>
-    <string name="app_name_long">Araguaneybits MultiWallet for Android</string>
+    <string name="title_activity_about">About FECRIPVE</string>
+    <string name="app_name_long">FECRIPVE for Android</string>
     <string name="about_licence">An open source project\nhttps://github.com/AraguaneyBits/AraguaneyBits-MultiWallet</string>
     <string name="about_credits_nubits">Server infrastructure donated by NuBits - The World\'s First Stable Digital Currency\nhttps://nubits.com/</string>
     <string name="about_credits_translations">Translations provided by:</string>
@@ -216,7 +216,10 @@
     <string name="about_credits_font_icons">Font-icons by Daniel Bruce\nhttp://www.entypo.com</string>
     <string name="about_credits_exchange_rates">Exchange rates provided by\nhttp://www.cryptocoincharts.info/\nhttps://bitcoinaverage.com/</string>
     <string name="about_coinomi_copyright" translatable="false">\u00A9 2014–2016 Coinomi</string>
-    <string name="about_araguaney_copyright" translatable="false">2018 AraguaneyBits</string>
+    <string name="about_araguaney_copyright" translatable="false">2019 AraguaneyBits</string>
+    <string name="about_fecripve" translatable="false">La FECRIPVE tiene como objeto promover la educación sobre el Ecosistema de Criptomonedas Venezolano, además de desarrollar tecnologías, planes de marketing entre otros materiales, en pro de la mejora del ecosistema.</string>
+
+
 
     <!-- Add Coins -->
     <string name="title_activity_add_coins">Add coins</string>
@@ -370,11 +373,11 @@
     <string name="account_extended_private_key_label">Extended private key</string>
     <string name="account_private_key_warning">The private key allows you to send coins from this account. It is not necessary to backup this key as it is derived from your <i>recovery phrase</i></string>
     <!-- Support -->
-    <string name="support_message">Contact Araguaneybits support</string>
+    <string name="support_message">Contact FECRIPVE support</string>
     <!-- Sweep wallet -->
     <!-- Sweep paper wallet means to redeem coins from a code usually printed on a paper -->
     <string name="title_activity_sweep_wallet">Sweep paper wallet</string>
-    <string name="sweep_wallet_info">You are about to transfer coins from a paper wallet to your Araguaneybits wallet.\nAfter the transfer is complete, please avoid reusing the paper wallet for security reasons.\n\nSupported formats: WIF, BIP38, Mini private key.</string>
+    <string name="sweep_wallet_info">You are about to transfer coins from a paper wallet to your FECRIPVE wallet.\nAfter the transfer is complete, please avoid reusing the paper wallet for security reasons.\n\nSupported formats: WIF, BIP38, Mini private key.</string>
     <string name="sweep_wallet_key_title">Private key</string>
     <string name="sweep_wallet_key_password">Private key password</string>
     <string name="sweep_wallet_key_hint">type or scan a private key</string>
@@ -405,9 +408,9 @@
     <string name="terms_of_service" translatable="false">LEGAL DISCLAIMER\n
 \n
 \n
-1. Risks related to the use of Araguaneybits Wallet\n
+1. Risks related to the use of FECRIPVE Wallet\n
 \n
-Araguaneybits will not be responsible for any losses, damages or claims arising from events falling within the scope of the following five categories:\n
+FECRIPVE will not be responsible for any losses, damages or claims arising from events falling within the scope of the following five categories:\n
 \n
 (1) Mistakes made by the user of any cryptocurrency-related software or service, e.g., forgotten passwords, payments sent to wrong coin addresses, and accidental deletion of wallets.\n
 \n
