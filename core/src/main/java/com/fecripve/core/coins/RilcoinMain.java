@@ -16,7 +16,7 @@ public class RilcoinMain extends BitFamily {
         this.name = "Rilcoin";
         this.symbol = "RIL";
         this.uriScheme = "rilcoin";
-        this.bip44Index = 250; // FIXME The code 250 belongs to SOOM https://github.com/satoshilabs/slips/blob/master/slip-0044.md
+        this.bip44Index = 279;
         this.unitExponent = 8;
         this.feeValue = value(Constants.MIN_HUB_EFFECTIVE_BALANCE);
         this.minNonDust = value(1);
