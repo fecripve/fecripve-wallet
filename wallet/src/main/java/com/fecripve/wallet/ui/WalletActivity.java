@@ -217,8 +217,8 @@ final public class WalletActivity extends BaseWalletActivity implements
 
     private void createNavDrawerItems() {
         navDrawerItems.clear();
-        NavDrawerItem.addItem(navDrawerItems, ITEM_SECTION_TITLE, getString(R.string.navigation_drawer_services));
-        NavDrawerItem.addItem(navDrawerItems, ITEM_TRADE, getString(R.string.title_activity_trade), R.drawable.trade, null);
+        //NavDrawerItem.addItem(navDrawerItems, ITEM_SECTION_TITLE, getString(R.string.navigation_drawer_services));
+        //NavDrawerItem.addItem(navDrawerItems, ITEM_TRADE, getString(R.string.title_activity_trade), R.drawable.trade, null);
         NavDrawerItem.addItem(navDrawerItems, ITEM_SECTION_TITLE, getString(R.string.navigation_drawer_wallet));
         NavDrawerItem.addItem(navDrawerItems, ITEM_OVERVIEW, getString(R.string.title_activity_overview), R.drawable.ic_launcher, null);
         for (WalletAccount account : getAllAccounts()) {
@@ -620,11 +620,11 @@ final public class WalletActivity extends BaseWalletActivity implements
         } else if (id == R.id.action_about) {
             startActivity(new Intent(WalletActivity.this, AboutActivity.class));
             return true;
-        } else if (id == R.id.action_export_keys) {
+        } /*else if (id == R.id.action_export_keys) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://iancoleman.io/bip39/"));
             startActivity(browserIntent);
             return true;
-        }
+        } */
 
         return super.onOptionsItemSelected(item);
     }
